@@ -1,0 +1,35 @@
+{
+  "nav": { "home": "Home", "about": "About", "portfolio": "Work", "contact": "Contact", "resume": "Resume" },
+  "home": { "title": "Hi, I'm Bulşah", "subtitle": "Data Scientist & Engineer", "cta_view_work": "View my work" },
+  "about": {
+    "title": "About Me",
+    "bio": "I'm Bulşah Keçici — a Data Scientist and Computer Engineer based in Ankara. I specialize in AI-driven analytics, intelligent automation, and modern web systems. My work focuses on building data pipelines, AI models, and digital tools that transform ideas into measurable results. I'm passionate about clean design, reliable code, and practical innovation.",
+    "links": { "linkedin": "LinkedIn Profile", "github": "GitHub Profile" }
+  },
+  "portfolio": {
+    "title": "Selected Projects",
+    "projects": [
+      {
+        "name": "VehicleSpeedDetection",
+        "desc": "An AI-powered system using YOLOv8 to detect speeding vehicles, recognize license plates, and calculate dynamic fines based on insurance values.",
+        "role": "Developer & AI Engineer",
+        "result": "Achieved 95% accuracy and integrated automated database reporting."
+      },
+      {
+        "name": "BulkaDental Management System",
+        "desc": "A multi-platform clinic management system (WPF, Angular, Flutter) with treatment planning, role-based dashboards, and discount automation.",
+        "role": "Full-Stack Developer",
+        "result": "Deployed for real clinical use with modular scalability for web and mobile."
+      },
+      {
+        "name": "KGM Tunnel Analytics Platform",
+        "desc": "A data analysis framework for the Turkish General Directorate of Highways (KGM), providing tunnel cost prediction and maintenance analytics.",
+        "role": "Data Scientist",
+        "result": "Delivered statistical models improving maintenance cost estimation accuracy by 20%."
+      }
+    ]
+  },
+  "contact": { "title": "Let's work together", "name":"Your name", "email":"Your email", "message":"Your message", "submit": "Send" },
+  "resume": { "title": "Resume", "download_pdf": "Download PDF" },
+  "lang": { "en": "English", "tr": "Türkçe", "de": "Deutsch" }
+}

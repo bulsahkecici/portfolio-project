@@ -1,0 +1,35 @@
+{
+  "nav": { "home": "Start", "about": "Über mich", "portfolio": "Arbeiten", "contact": "Kontakt", "resume": "Lebenslauf" },
+  "home": { "title": "Hallo, ich bin Bulşah", "subtitle": "Data Scientist & Ingenieur", "cta_view_work": "Meine Arbeiten ansehen" },
+  "about": {
+    "title": "Über mich",
+    "bio": "Ich bin Bulşah Keçici — ein Data Scientist und Informatikingenieur aus Ankara. Ich entwickle KI-gestützte Analysen, intelligente Automatisierung und moderne Websysteme. Meine Arbeit konzentriert sich darauf, Daten in verwertbare Erkenntnisse zu verwandeln und digitale Werkzeuge zu schaffen, die messbare Ergebnisse liefern. Sauberes Design, zuverlässiger Code und praktische Innovation sind meine Prioritäten.",
+    "links": { "linkedin": "LinkedIn-Profil", "github": "GitHub-Profil" }
+  },
+  "portfolio": {
+    "title": "Ausgewählte Projekte",
+    "projects": [
+      {
+        "name": "VehicleSpeedDetection",
+        "desc": "Ein KI-basiertes System mit YOLOv8 zur Erkennung von Geschwindigkeitsüberschreitungen, Kennzeichen und dynamischen Bußgeldberechnung.",
+        "role": "Entwickler & KI-Ingenieur",
+        "result": "Erreichte 95 % Genauigkeit und integrierte automatische Datenbankberichte."
+      },
+      {
+        "name": "BulkaDental-Management-System",
+        "desc": "Ein plattformübergreifendes Klinikverwaltungssystem (WPF, Angular, Flutter) mit Behandlungsplanung und rollenbasierten Dashboards.",
+        "role": "Full-Stack-Entwickler",
+        "result": "Im klinischen Einsatz mit skalierbarer Web- und Mobilarchitektur."
+      },
+      {
+        "name": "KGM-Tunnel-Analyse-Plattform",
+        "desc": "Eine Datenanalyseplattform für die türkische Straßenbehörde (KGM) zur Prognose von Tunnelkosten und Wartungsanalysen.",
+        "role": "Data Scientist",
+        "result": "Verbesserte die Genauigkeit der Wartungskostenschätzung um 20 %."
+      }
+    ]
+  },
+  "contact": { "title": "Lass uns zusammenarbeiten", "name":"Ihr Name", "email":"Ihre E-Mail", "message":"Ihre Nachricht", "submit": "Senden" },
+  "resume": { "title": "Lebenslauf", "download_pdf": "PDF herunterladen" },
+  "lang": { "en": "English", "tr": "Türkçe", "de": "Deutsch" }
+}

@@ -1,0 +1,35 @@
+{
+  "nav": { "home": "Ana Sayfa", "about": "Hakkımda", "portfolio": "Çalışmalar", "contact": "İletişim", "resume": "Özgeçmiş" },
+  "home": { "title": "Merhaba, ben Bulşah", "subtitle": "Veri Bilimci & Mühendis", "cta_view_work": "Projelerime göz at" },
+  "about": {
+    "title": "Hakkımda",
+    "bio": "Ben Bulşah Keçici — Ankara'da yaşayan bir Veri Bilimci ve Bilgisayar Mühendisiyim. Yapay zekâ destekli analizler, akıllı otomasyonlar ve modern web sistemleri geliştiriyorum. Çalışmalarım; veriyi anlamlı hale getirmek, karar süreçlerini hızlandırmak ve fikirleri ölçülebilir sonuçlara dönüştürmek üzerine odaklı. Temiz tasarım, güvenilir kod ve uygulanabilir yenilik en büyük önceliklerimdir.",
+    "links": { "linkedin": "LinkedIn Profilim", "github": "GitHub Profilim" }
+  },
+  "portfolio": {
+    "title": "Seçili Projeler",
+    "projects": [
+      {
+        "name": "VehicleSpeedDetection",
+        "desc": "YOLOv8 tabanlı, hız ihlali yapan araçları tespit eden, plaka tanıyan ve sigorta değerine göre dinamik ceza hesaplayan bir yapay zekâ sistemi.",
+        "role": "Geliştirici & Yapay Zekâ Mühendisi",
+        "result": "95% doğruluk oranı elde edildi ve otomatik veri tabanı raporlama entegre edildi."
+      },
+      {
+        "name": "BulkaDental Yönetim Sistemi",
+        "desc": "Tedavi planlama, rol bazlı paneller ve indirim yönetimi içeren çok platformlu (WPF, Angular, Flutter) bir diş kliniği yönetim sistemi.",
+        "role": "Tam Yığın Geliştirici",
+        "result": "Gerçek klinik ortamında kullanılmaya başlandı; web ve mobil için ölçeklenebilir yapı."
+      },
+      {
+        "name": "KGM Tünel Analiz Platformu",
+        "desc": "Karayolları Genel Müdürlüğü (KGM) için tünel maliyet tahmini ve bakım analitiği sağlayan bir veri analizi altyapısı.",
+        "role": "Veri Bilimci",
+        "result": "Bakım maliyet tahmin doğruluğu %20 artırıldı."
+      }
+    ]
+  },
+  "contact": { "title": "Birlikte çalışalım", "name":"Adınız", "email":"E-posta", "message":"Mesajınız", "submit": "Gönder" },
+  "resume": { "title": "Özgeçmiş", "download_pdf": "PDF indir" },
+  "lang": { "en": "English", "tr": "Türkçe", "de": "Deutsch" }
+}
