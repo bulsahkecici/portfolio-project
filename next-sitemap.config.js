@@ -1,11 +1,12 @@
+const siteUrl = process.env.SITE_URL || 'https://bulsahkecici.com';
+
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://example.com',
+  siteUrl,
   generateRobotsTxt: true,
   exclude: ['/api/*'],
   alternateRefs: [
-    { href: 'https://example.com/en', hreflang: 'en' },
-    { href: 'https://example.com/tr', hreflang: 'tr' },
-    { href: 'https://example.com/de', hreflang: 'de' },
+    { href: `${siteUrl}/en`, hreflang: 'en' },
+    { href: `${siteUrl}/tr`, hreflang: 'tr' },
+    { href: `${siteUrl}/de`, hreflang: 'de' },
   ],
 };
-
