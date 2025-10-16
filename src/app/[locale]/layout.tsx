@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "@/lib/i18n/getMessages";
 import { defaultLocale, isSupportedLocale } from "@/lib/i18n/config";
+import Script from "next/script";
+import { GA_ID } from "@/lib/ga";
+import GAListener from "@/components/analytics/GAListener";
 import "@/styles/globals.css";
 
 export const dynamic = "force-static";
@@ -55,6 +58,7 @@ export default async function LocaleLayout({
   const { locale: localeParam } = await params;
   const locale = isSupportedLocale(localeParam) ? localeParam : defaultLocale;
   const messages = await getMessages(locale);
+  const isProd = process.env.NODE_ENV === "production";
 
   return (
     <html lang={locale}>
@@ -62,6 +66,33 @@ export default async function LocaleLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>
+
+        {isProd && GA_ID && (
+          <>
+            <Script
+              id="ga4-src"
+              strategy="afterInteractive"
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+            />
+            <Script
+              id="ga4-init"
+              strategy="afterInteractive"
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', '${GA_ID}', { 
+                    anonymize_ip: true,
+                    page_location: window.location.href,
+                    page_title: document.title
+                  });
+                `,
+              }}
+            />
+            <GAListener />
+          </>
+        )}
       </body>
     </html>
   );
