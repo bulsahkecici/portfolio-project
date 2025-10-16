@@ -1,35 +1,168 @@
 {
-  "nav": { "home": "Start", "about": "Über mich", "portfolio": "Arbeiten", "contact": "Kontakt", "resume": "Lebenslauf" },
-  "home": { "title": "Hallo, ich bin Bulşah", "subtitle": "Data Scientist & Ingenieur", "cta_view_work": "Meine Arbeiten ansehen" },
+  "nav": { 
+    "about": "Über mich", 
+    "projects": "Projekte", 
+    "skills": "Fähigkeiten",
+    "certificates": "Zertifikate",
+    "blog": "Blog",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "greeting": "Hallo, ich bin",
+    "name": "Bulşah Keçici",
+    "title": "Data Scientist & Informatikingenieur",
+    "subtitle": "Entwicklung intelligenter Systeme und datengesteuerter Lösungen",
+    "cta_contact": "Kontakt aufnehmen",
+    "cta_projects": "Projekte ansehen"
+  },
   "about": {
     "title": "Über mich",
-    "bio": "Ich bin Bulşah Keçici — ein Data Scientist und Informatikingenieur aus Ankara. Ich entwickle KI-gestützte Analysen, intelligente Automatisierung und moderne Websysteme. Meine Arbeit konzentriert sich darauf, Daten in verwertbare Erkenntnisse zu verwandeln und digitale Werkzeuge zu schaffen, die messbare Ergebnisse liefern. Sauberes Design, zuverlässiger Code und praktische Innovation sind meine Prioritäten.",
-    "links": { "linkedin": "LinkedIn-Profil", "github": "GitHub-Profil" }
+    "bio": "Ich bin Bulşah Keçici — ein Data Scientist und Informatikingenieur aus Ankara. Ich entwickle KI-gestützte Analysen, intelligente Automatisierung und moderne Websysteme. Meine Arbeit konzentriert sich darauf, Daten in verwertbare Erkenntnisse zu verwandeln und digitale Werkzeuge zu schaffen, die messbare Ergebnisse liefern.",
+    "highlights": {
+      "title": "Karriere-Highlights",
+      "items": [
+        "5+ Jahre Erfahrung in Data Science und Software Engineering",
+        "KI-Systeme mit 95%+ Genauigkeit entwickelt",
+        "Multi-Plattform-Gesundheitsmanagementsysteme erstellt",
+        "Expertise in Python, Machine Learning und Full-Stack-Entwicklung"
+      ]
+    },
+    "location": "Ankara, Türkei",
+    "availability": "Für Remote-Möglichkeiten verfügbar"
   },
-  "portfolio": {
+  "skills": {
+    "title": "Fähigkeiten & Technologien",
+    "categories": {
+      "languages": {
+        "title": "Programmiersprachen",
+        "items": ["Python", "JavaScript", "TypeScript", "C#", "SQL"]
+      },
+      "ai_ml": {
+        "title": "KI & Machine Learning",
+        "items": ["TensorFlow", "PyTorch", "Scikit-learn", "YOLOv8", "OpenCV", "NLP"]
+      },
+      "web": {
+        "title": "Webentwicklung",
+        "items": ["React", "Next.js", "Angular", "Node.js", "Tailwind CSS"]
+      },
+      "mobile": {
+        "title": "Mobile Entwicklung",
+        "items": ["Flutter", "React Native"]
+      },
+      "tools": {
+        "title": "Tools & Plattformen",
+        "items": ["Git", "Docker", "Azure", "PostgreSQL", "MongoDB", "Redis"]
+      }
+    }
+  },
+  "projects": {
     "title": "Ausgewählte Projekte",
-    "projects": [
+    "viewCode": "Code ansehen",
+    "viewDemo": "Live Demo",
+    "items": [
       {
         "name": "VehicleSpeedDetection",
         "desc": "Ein KI-basiertes System mit YOLOv8 zur Erkennung von Geschwindigkeitsüberschreitungen, Kennzeichen und dynamischen Bußgeldberechnung.",
         "role": "Entwickler & KI-Ingenieur",
-        "result": "Erreichte 95 % Genauigkeit und integrierte automatische Datenbankberichte."
+        "result": "Erreichte 95 % Genauigkeit und integrierte automatische Datenbankberichte.",
+        "tech": ["Python", "YOLOv8", "OpenCV", "PostgreSQL"],
+        "github": "https://github.com/bulsahkecici/VehicleSpeedDetection"
       },
       {
         "name": "BulkaDental-Management-System",
-        "desc": "Ein plattformübergreifendes Klinikverwaltungssystem (WPF, Angular, Flutter) mit Behandlungsplanung und rollenbasierten Dashboards.",
+        "desc": "Ein plattformübergreifendes Klinikverwaltungssystem mit Behandlungsplanung und rollenbasierten Dashboards.",
         "role": "Full-Stack-Entwickler",
-        "result": "Im klinischen Einsatz mit skalierbarer Web- und Mobilarchitektur."
+        "result": "Im klinischen Einsatz mit skalierbarer Web- und Mobilarchitektur.",
+        "tech": ["C#", "WPF", "Angular", "Flutter", "SQL Server"],
+        "github": "https://github.com/bulsahkecici/BulkaDental"
       },
       {
         "name": "KGM-Tunnel-Analyse-Plattform",
         "desc": "Eine Datenanalyseplattform für die türkische Straßenbehörde (KGM) zur Prognose von Tunnelkosten und Wartungsanalysen.",
         "role": "Data Scientist",
-        "result": "Verbesserte die Genauigkeit der Wartungskostenschätzung um 20 %."
+        "result": "Verbesserte die Genauigkeit der Wartungskostenschätzung um 20 %.",
+        "tech": ["Python", "Pandas", "Scikit-learn", "Power BI"]
       }
     ]
   },
-  "contact": { "title": "Lass uns zusammenarbeiten", "name":"Ihr Name", "email":"Ihre E-Mail", "message":"Ihre Nachricht", "submit": "Senden" },
-  "resume": { "title": "Lebenslauf", "download_pdf": "PDF herunterladen" },
-  "lang": { "en": "English", "tr": "Türkçe", "de": "Deutsch" }
+  "certificates": {
+    "title": "Bildung & Zertifikate",
+    "items": [
+      {
+        "title": "Informatik",
+        "institution": "Ankara Universität",
+        "year": "2019 - 2024",
+        "type": "Bachelor-Abschluss"
+      },
+      {
+        "title": "Machine Learning Specialization",
+        "institution": "Coursera - Stanford University",
+        "year": "2023",
+        "type": "Zertifikat"
+      },
+      {
+        "title": "Deep Learning Specialization",
+        "institution": "Coursera - deeplearning.ai",
+        "year": "2023",
+        "type": "Zertifikat"
+      },
+      {
+        "title": "Azure AI Fundamentals",
+        "institution": "Microsoft",
+        "year": "2022",
+        "type": "Zertifikat"
+      }
+    ]
+  },
+  "blog": {
+    "title": "Neueste Artikel",
+    "readMore": "Weiterlesen",
+    "viewAll": "Alle Artikel",
+    "items": [
+      {
+        "title": "Skalierbare KI-Pipelines mit Python erstellen",
+        "excerpt": "Ein umfassender Leitfaden zum Entwerfen und Implementieren produktionsreifer Machine-Learning-Pipelines.",
+        "date": "2024-03-15",
+        "slug": "skalierbare-ki-pipelines"
+      },
+      {
+        "title": "Objekterkennung mit YOLOv8: Ein praktischer Leitfaden",
+        "excerpt": "Lernen Sie, wie Sie Echtzeit-Objekterkennungssysteme mit der neuesten YOLO-Architektur implementieren.",
+        "date": "2024-02-20",
+        "slug": "yolov8-leitfaden"
+      },
+      {
+        "title": "Full-Stack-Entwicklung mit Next.js 15",
+        "excerpt": "Entdecken Sie die neuen Funktionen und Best Practices für moderne Webanwendungen.",
+        "date": "2024-01-10",
+        "slug": "nextjs-15-leitfaden"
+      }
+    ]
+  },
+  "contact": { 
+    "title": "Lass uns zusammenarbeiten", 
+    "description": "Ich bin immer offen für neue Projekte, kreative Ideen oder die Möglichkeit, Teil Ihrer Vision zu sein.",
+    "name": "Ihr Name", 
+    "email": "Ihre E-Mail", 
+    "message": "Ihre Nachricht", 
+    "submit": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "success": "Nachricht erfolgreich gesendet!",
+    "error": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
+    "info": {
+      "email": "bulsahkecici@yandex.com",
+      "location": "Ankara, Türkei",
+      "timezone": "GMT+3 (Europa/Istanbul)",
+      "schedule": "Meeting planen"
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "twitter": "Twitter"
+    }
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "made": "Erstellt mit Next.js & Tailwind CSS"
+  }
 }

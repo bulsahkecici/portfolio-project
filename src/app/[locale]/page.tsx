@@ -1,17 +1,27 @@
-"use client";
-import { useTranslations } from "next-intl";
-import { ArrowRight } from "lucide-react";
+import HeroSection from "@/components/sections/HeroSection";
+import AboutSection from "@/components/sections/AboutSection";
+import SkillsSection from "@/components/sections/SkillsSection";
+import ProjectsSection from "@/components/sections/ProjectsSection";
+import CertificatesSection from "@/components/sections/CertificatesSection";
+import BlogSection from "@/components/sections/BlogSection";
+import ContactSection from "@/components/sections/ContactSection";
+import StickyNav from "@/components/layout/StickyNav";
+import Footer from "@/components/layout/Footer";
 
 export default function Page() {
-  const t = useTranslations("home");
   return (
-    <section className="space-y-4">
-      <h1 className="text-3xl font-bold">{t("title")}</h1>
-      <p className="text-lg opacity-80">{t("subtitle")}</p>
-      <a href="#portfolio" className="inline-flex items-center gap-2 rounded-md border px-4 py-2">
-        {t("cta_view_work")} <ArrowRight size={18}/>
-      </a>
-    </section>
+    <>
+      <StickyNav />
+      <main className="overflow-x-hidden">
+        <HeroSection />
+        <AboutSection />
+        <SkillsSection />
+        <ProjectsSection />
+        <CertificatesSection />
+        <BlogSection />
+        <ContactSection />
+      </main>
+      <Footer />
+    </>
   );
 }
-

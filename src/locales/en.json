@@ -1,35 +1,168 @@
 {
-  "nav": { "home": "Home", "about": "About", "portfolio": "Work", "contact": "Contact", "resume": "Resume" },
-  "home": { "title": "Hi, I'm Bulşah", "subtitle": "Data Scientist & Engineer", "cta_view_work": "View my work" },
+  "nav": { 
+    "about": "About", 
+    "projects": "Projects", 
+    "skills": "Skills",
+    "certificates": "Certificates",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Bulşah Keçici",
+    "title": "Data Scientist & Computer Engineer",
+    "subtitle": "Building intelligent systems and data-driven solutions",
+    "cta_contact": "Get in touch",
+    "cta_projects": "View projects"
+  },
   "about": {
     "title": "About Me",
-    "bio": "I'm Bulşah Keçici — a Data Scientist and Computer Engineer based in Ankara. I specialize in AI-driven analytics, intelligent automation, and modern web systems. My work focuses on building data pipelines, AI models, and digital tools that transform ideas into measurable results. I'm passionate about clean design, reliable code, and practical innovation.",
-    "links": { "linkedin": "LinkedIn Profile", "github": "GitHub Profile" }
+    "bio": "I'm Bulşah Keçici — a Data Scientist and Computer Engineer based in Ankara. I specialize in AI-driven analytics, intelligent automation, and modern web systems. My work focuses on building data pipelines, AI models, and digital tools that transform ideas into measurable results.",
+    "highlights": {
+      "title": "Career Highlights",
+      "items": [
+        "5+ years of experience in data science and software engineering",
+        "Built AI-powered systems with 95%+ accuracy",
+        "Developed multi-platform healthcare management systems",
+        "Expertise in Python, Machine Learning, and Full-Stack Development"
+      ]
+    },
+    "location": "Ankara, Turkey",
+    "availability": "Available for remote opportunities"
   },
-  "portfolio": {
-    "title": "Selected Projects",
-    "projects": [
+  "skills": {
+    "title": "Skills & Technologies",
+    "categories": {
+      "languages": {
+        "title": "Programming Languages",
+        "items": ["Python", "JavaScript", "TypeScript", "C#", "SQL"]
+      },
+      "ai_ml": {
+        "title": "AI & Machine Learning",
+        "items": ["TensorFlow", "PyTorch", "Scikit-learn", "YOLOv8", "OpenCV", "NLP"]
+      },
+      "web": {
+        "title": "Web Development",
+        "items": ["React", "Next.js", "Angular", "Node.js", "Tailwind CSS"]
+      },
+      "mobile": {
+        "title": "Mobile Development",
+        "items": ["Flutter", "React Native"]
+      },
+      "tools": {
+        "title": "Tools & Platforms",
+        "items": ["Git", "Docker", "Azure", "PostgreSQL", "MongoDB", "Redis"]
+      }
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "viewCode": "View Code",
+    "viewDemo": "Live Demo",
+    "items": [
       {
         "name": "VehicleSpeedDetection",
         "desc": "An AI-powered system using YOLOv8 to detect speeding vehicles, recognize license plates, and calculate dynamic fines based on insurance values.",
         "role": "Developer & AI Engineer",
-        "result": "Achieved 95% accuracy and integrated automated database reporting."
+        "result": "Achieved 95% accuracy and integrated automated database reporting.",
+        "tech": ["Python", "YOLOv8", "OpenCV", "PostgreSQL"],
+        "github": "https://github.com/bulsahkecici/VehicleSpeedDetection"
       },
       {
         "name": "BulkaDental Management System",
-        "desc": "A multi-platform clinic management system (WPF, Angular, Flutter) with treatment planning, role-based dashboards, and discount automation.",
+        "desc": "A multi-platform clinic management system with treatment planning, role-based dashboards, and discount automation.",
         "role": "Full-Stack Developer",
-        "result": "Deployed for real clinical use with modular scalability for web and mobile."
+        "result": "Deployed for real clinical use with modular scalability for web and mobile.",
+        "tech": ["C#", "WPF", "Angular", "Flutter", "SQL Server"],
+        "github": "https://github.com/bulsahkecici/BulkaDental"
       },
       {
         "name": "KGM Tunnel Analytics Platform",
         "desc": "A data analysis framework for the Turkish General Directorate of Highways (KGM), providing tunnel cost prediction and maintenance analytics.",
         "role": "Data Scientist",
-        "result": "Delivered statistical models improving maintenance cost estimation accuracy by 20%."
+        "result": "Delivered statistical models improving maintenance cost estimation accuracy by 20%.",
+        "tech": ["Python", "Pandas", "Scikit-learn", "Power BI"]
       }
     ]
   },
-  "contact": { "title": "Let's work together", "name":"Your name", "email":"Your email", "message":"Your message", "submit": "Send" },
-  "resume": { "title": "Resume", "download_pdf": "Download PDF" },
-  "lang": { "en": "English", "tr": "Türkçe", "de": "Deutsch" }
+  "certificates": {
+    "title": "Education & Certificates",
+    "items": [
+      {
+        "title": "Computer Engineering",
+        "institution": "Ankara University",
+        "year": "2019 - 2024",
+        "type": "Bachelor's Degree"
+      },
+      {
+        "title": "Machine Learning Specialization",
+        "institution": "Coursera - Stanford University",
+        "year": "2023",
+        "type": "Certificate"
+      },
+      {
+        "title": "Deep Learning Specialization",
+        "institution": "Coursera - deeplearning.ai",
+        "year": "2023",
+        "type": "Certificate"
+      },
+      {
+        "title": "Azure AI Fundamentals",
+        "institution": "Microsoft",
+        "year": "2022",
+        "type": "Certificate"
+      }
+    ]
+  },
+  "blog": {
+    "title": "Latest Articles",
+    "readMore": "Read more",
+    "viewAll": "View all articles",
+    "items": [
+      {
+        "title": "Building Scalable AI Pipelines with Python",
+        "excerpt": "A comprehensive guide to designing and implementing production-ready machine learning pipelines.",
+        "date": "2024-03-15",
+        "slug": "scalable-ai-pipelines"
+      },
+      {
+        "title": "Object Detection with YOLOv8: A Practical Guide",
+        "excerpt": "Learn how to implement real-time object detection systems using the latest YOLO architecture.",
+        "date": "2024-02-20",
+        "slug": "yolov8-guide"
+      },
+      {
+        "title": "Full-Stack Development with Next.js 15",
+        "excerpt": "Exploring the new features and best practices for building modern web applications.",
+        "date": "2024-01-10",
+        "slug": "nextjs-15-guide"
+      }
+    ]
+  },
+  "contact": { 
+    "title": "Let's Work Together", 
+    "description": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
+    "name": "Your name", 
+    "email": "Your email", 
+    "message": "Your message", 
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Failed to send message. Please try again.",
+    "info": {
+      "email": "bulsahkecici@yandex.com",
+      "location": "Ankara, Turkey",
+      "timezone": "GMT+3 (Europe/Istanbul)",
+      "schedule": "Schedule a meeting"
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "twitter": "Twitter"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "made": "Built with Next.js & Tailwind CSS"
+  }
 }

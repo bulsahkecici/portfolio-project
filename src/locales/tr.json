@@ -1,35 +1,168 @@
 {
-  "nav": { "home": "Ana Sayfa", "about": "Hakkımda", "portfolio": "Çalışmalar", "contact": "İletişim", "resume": "Özgeçmiş" },
-  "home": { "title": "Merhaba, ben Bulşah", "subtitle": "Veri Bilimci & Mühendis", "cta_view_work": "Projelerime göz at" },
+  "nav": { 
+    "about": "Hakkımda", 
+    "projects": "Projeler", 
+    "skills": "Beceriler",
+    "certificates": "Sertifikalar",
+    "blog": "Blog",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "greeting": "Merhaba, ben",
+    "name": "Bulşah Keçici",
+    "title": "Veri Bilimci & Bilgisayar Mühendisi",
+    "subtitle": "Akıllı sistemler ve veri odaklı çözümler geliştiriyorum",
+    "cta_contact": "İletişime geç",
+    "cta_projects": "Projeleri gör"
+  },
   "about": {
     "title": "Hakkımda",
-    "bio": "Ben Bulşah Keçici — Ankara'da yaşayan bir Veri Bilimci ve Bilgisayar Mühendisiyim. Yapay zekâ destekli analizler, akıllı otomasyonlar ve modern web sistemleri geliştiriyorum. Çalışmalarım; veriyi anlamlı hale getirmek, karar süreçlerini hızlandırmak ve fikirleri ölçülebilir sonuçlara dönüştürmek üzerine odaklı. Temiz tasarım, güvenilir kod ve uygulanabilir yenilik en büyük önceliklerimdir.",
-    "links": { "linkedin": "LinkedIn Profilim", "github": "GitHub Profilim" }
+    "bio": "Ben Bulşah Keçici — Ankara'da yaşayan bir Veri Bilimci ve Bilgisayar Mühendisiyim. Yapay zekâ destekli analizler, akıllı otomasyonlar ve modern web sistemleri geliştiriyorum. Çalışmalarım; veriyi anlamlı hale getirmek, karar süreçlerini hızlandırmak ve fikirleri ölçülebilir sonuçlara dönüştürmek üzerine odaklı.",
+    "highlights": {
+      "title": "Kariyer Öne Çıkanlar",
+      "items": [
+        "5+ yıllık veri bilimi ve yazılım mühendisliği deneyimi",
+        "%95+ doğruluk oranıyla yapay zeka sistemleri geliştirdim",
+        "Çok platformlu sağlık yönetim sistemleri oluşturdum",
+        "Python, Makine Öğrenimi ve Full-Stack geliştirmede uzmanım"
+      ]
+    },
+    "location": "Ankara, Türkiye",
+    "availability": "Uzaktan çalışma fırsatlarına açığım"
   },
-  "portfolio": {
-    "title": "Seçili Projeler",
-    "projects": [
+  "skills": {
+    "title": "Beceriler & Teknolojiler",
+    "categories": {
+      "languages": {
+        "title": "Programlama Dilleri",
+        "items": ["Python", "JavaScript", "TypeScript", "C#", "SQL"]
+      },
+      "ai_ml": {
+        "title": "Yapay Zeka & Makine Öğrenimi",
+        "items": ["TensorFlow", "PyTorch", "Scikit-learn", "YOLOv8", "OpenCV", "NLP"]
+      },
+      "web": {
+        "title": "Web Geliştirme",
+        "items": ["React", "Next.js", "Angular", "Node.js", "Tailwind CSS"]
+      },
+      "mobile": {
+        "title": "Mobil Geliştirme",
+        "items": ["Flutter", "React Native"]
+      },
+      "tools": {
+        "title": "Araçlar & Platformlar",
+        "items": ["Git", "Docker", "Azure", "PostgreSQL", "MongoDB", "Redis"]
+      }
+    }
+  },
+  "projects": {
+    "title": "Öne Çıkan Projeler",
+    "viewCode": "Kodu Gör",
+    "viewDemo": "Canlı Demo",
+    "items": [
       {
         "name": "VehicleSpeedDetection",
         "desc": "YOLOv8 tabanlı, hız ihlali yapan araçları tespit eden, plaka tanıyan ve sigorta değerine göre dinamik ceza hesaplayan bir yapay zekâ sistemi.",
         "role": "Geliştirici & Yapay Zekâ Mühendisi",
-        "result": "95% doğruluk oranı elde edildi ve otomatik veri tabanı raporlama entegre edildi."
+        "result": "95% doğruluk oranı elde edildi ve otomatik veri tabanı raporlama entegre edildi.",
+        "tech": ["Python", "YOLOv8", "OpenCV", "PostgreSQL"],
+        "github": "https://github.com/bulsahkecici/VehicleSpeedDetection"
       },
       {
         "name": "BulkaDental Yönetim Sistemi",
-        "desc": "Tedavi planlama, rol bazlı paneller ve indirim yönetimi içeren çok platformlu (WPF, Angular, Flutter) bir diş kliniği yönetim sistemi.",
+        "desc": "Tedavi planlama, rol bazlı paneller ve indirim yönetimi içeren çok platformlu bir diş kliniği yönetim sistemi.",
         "role": "Tam Yığın Geliştirici",
-        "result": "Gerçek klinik ortamında kullanılmaya başlandı; web ve mobil için ölçeklenebilir yapı."
+        "result": "Gerçek klinik ortamında kullanılmaya başlandı; web ve mobil için ölçeklenebilir yapı.",
+        "tech": ["C#", "WPF", "Angular", "Flutter", "SQL Server"],
+        "github": "https://github.com/bulsahkecici/BulkaDental"
       },
       {
         "name": "KGM Tünel Analiz Platformu",
         "desc": "Karayolları Genel Müdürlüğü (KGM) için tünel maliyet tahmini ve bakım analitiği sağlayan bir veri analizi altyapısı.",
         "role": "Veri Bilimci",
-        "result": "Bakım maliyet tahmin doğruluğu %20 artırıldı."
+        "result": "Bakım maliyet tahmin doğruluğu %20 artırıldı.",
+        "tech": ["Python", "Pandas", "Scikit-learn", "Power BI"]
       }
     ]
   },
-  "contact": { "title": "Birlikte çalışalım", "name":"Adınız", "email":"E-posta", "message":"Mesajınız", "submit": "Gönder" },
-  "resume": { "title": "Özgeçmiş", "download_pdf": "PDF indir" },
-  "lang": { "en": "English", "tr": "Türkçe", "de": "Deutsch" }
+  "certificates": {
+    "title": "Eğitim & Sertifikalar",
+    "items": [
+      {
+        "title": "Bilgisayar Mühendisliği",
+        "institution": "Ankara Üniversitesi",
+        "year": "2019 - 2024",
+        "type": "Lisans Derecesi"
+      },
+      {
+        "title": "Machine Learning Specialization",
+        "institution": "Coursera - Stanford University",
+        "year": "2023",
+        "type": "Sertifika"
+      },
+      {
+        "title": "Deep Learning Specialization",
+        "institution": "Coursera - deeplearning.ai",
+        "year": "2023",
+        "type": "Sertifika"
+      },
+      {
+        "title": "Azure AI Fundamentals",
+        "institution": "Microsoft",
+        "year": "2022",
+        "type": "Sertifika"
+      }
+    ]
+  },
+  "blog": {
+    "title": "Son Yazılar",
+    "readMore": "Devamını oku",
+    "viewAll": "Tüm yazılar",
+    "items": [
+      {
+        "title": "Python ile Ölçeklenebilir Yapay Zeka Hatları Oluşturmak",
+        "excerpt": "Üretime hazır makine öğrenimi hatlarının tasarlanması ve uygulanması için kapsamlı bir rehber.",
+        "date": "2024-03-15",
+        "slug": "olceklenebilir-ai-hatlari"
+      },
+      {
+        "title": "YOLOv8 ile Nesne Tespiti: Pratik Bir Rehber",
+        "excerpt": "En son YOLO mimarisi kullanarak gerçek zamanlı nesne tespit sistemlerinin nasıl uygulanacağını öğrenin.",
+        "date": "2024-02-20",
+        "slug": "yolov8-rehberi"
+      },
+      {
+        "title": "Next.js 15 ile Full-Stack Geliştirme",
+        "excerpt": "Modern web uygulamaları oluşturmak için yeni özellikler ve en iyi uygulamalar.",
+        "date": "2024-01-10",
+        "slug": "nextjs-15-rehberi"
+      }
+    ]
+  },
+  "contact": { 
+    "title": "Birlikte Çalışalım", 
+    "description": "Yeni projeler, yaratıcı fikirler veya vizyonunuzun bir parçası olmak için her zaman açığım.",
+    "name": "Adınız", 
+    "email": "E-posta", 
+    "message": "Mesajınız", 
+    "submit": "Mesaj Gönder",
+    "sending": "Gönderiliyor...",
+    "success": "Mesaj başarıyla gönderildi!",
+    "error": "Mesaj gönderilemedi. Lütfen tekrar deneyin.",
+    "info": {
+      "email": "bulsahkecici@yandex.com",
+      "location": "Ankara, Türkiye",
+      "timezone": "GMT+3 (Avrupa/İstanbul)",
+      "schedule": "Toplantı planla"
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "twitter": "Twitter"
+    }
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır.",
+    "made": "Next.js & Tailwind CSS ile geliştirildi"
+  }
 }
