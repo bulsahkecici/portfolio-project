@@ -108,10 +108,17 @@
     "items": [
       {
         "title": "Informatik",
-        "institution": "Hacettepe Universität",
-        "year": "2015-2019",
+        "institution": "Ahmet Yesevi Universität",
+        "year": "Jun 2021",
         "type": "Bachelor-Abschluss",
-        "description": "Bachelor-Abschluss in Informatik mit Schwerpunkt auf Softwareentwicklung und Datenstrukturen."
+        "description": "Bachelor of Engineering in Informatik mit Schwerpunkt auf Softwareentwicklung und Datenstrukturen."
+      },
+      {
+        "title": "Statistik",
+        "institution": "Ankara Universität",
+        "year": "2013",
+        "type": "Bachelor-Abschluss",
+        "description": "Bachelor-Abschluss in Statistik mit starkem Fundament in statistischer Analyse und Dateninterpretation."
       },
       {
         "title": "Production Level Data Science",

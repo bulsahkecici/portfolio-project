@@ -108,10 +108,17 @@
     "items": [
       {
         "title": "Computer Engineering",
-        "institution": "Hacettepe University",
-        "year": "2015-2019",
+        "institution": "Ahmet Yesevi University",
+        "year": "Jun 2021",
         "type": "Bachelor's Degree",
-        "description": "Bachelor's degree in Computer Engineering with focus on software development and data structures."
+        "description": "Bachelor of Engineering in Computer Engineering with focus on software development and data structures."
+      },
+      {
+        "title": "Statistics",
+        "institution": "Ankara University",
+        "year": "2013",
+        "type": "Bachelor's Degree",
+        "description": "Bachelor's degree in Statistics providing strong foundation in statistical analysis and data interpretation."
       },
       {
         "title": "Production Level Data Science",

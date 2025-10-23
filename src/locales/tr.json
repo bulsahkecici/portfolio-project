@@ -108,10 +108,17 @@
     "items": [
       {
         "title": "Bilgisayar Mühendisliği",
-        "institution": "Hacettepe Üniversitesi",
-        "year": "2015-2019",
+        "institution": "Ahmet Yesevi Üniversitesi",
+        "year": "Haz 2021",
         "type": "Lisans Derecesi",
         "description": "Yazılım geliştirme ve veri yapıları odaklı Bilgisayar Mühendisliği lisans derecesi."
+      },
+      {
+        "title": "İstatistik",
+        "institution": "Ankara Üniversitesi",
+        "year": "2013",
+        "type": "Lisans Derecesi",
+        "description": "İstatistiksel analiz ve veri yorumlama konularında güçlü temel sağlayan İstatistik lisans derecesi."
       },
       {
         "title": "Production Level Data Science",
