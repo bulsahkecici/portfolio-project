@@ -35,23 +35,23 @@
     "categories": {
       "languages": {
         "title": "Programmiersprachen",
-        "items": ["Python", "JavaScript", "TypeScript", "C#", "SQL"]
+        "items": ["Python", "JavaScript", "TypeScript", "C#", "SQL", "HTML", "CSS"]
       },
       "ai_ml": {
         "title": "KI & Machine Learning",
-        "items": ["TensorFlow", "PyTorch", "Scikit-learn", "YOLOv8", "OpenCV", "NLP"]
+        "items": ["TensorFlow", "PyTorch", "Scikit-learn", "YOLOv8", "OpenCV", "Computer Vision", "Deep Learning"]
       },
       "web": {
-        "title": "Webentwicklung",
-        "items": ["React", "Next.js", "Angular", "Node.js", "Tailwind CSS"]
+        "title": "Web-Entwicklung",
+        "items": ["React", "Next.js", "Angular", "Node.js", "ASP.NET", "Web Forms", "Tailwind CSS"]
       },
       "mobile": {
-        "title": "Mobile Entwicklung",
-        "items": ["Flutter", "React Native"]
+        "title": "Mobile & Desktop",
+        "items": ["Flutter", "React Native", "WPF", "Cross-Platform Entwicklung"]
       },
       "tools": {
         "title": "Tools & Plattformen",
-        "items": ["Git", "Docker", "Azure", "PostgreSQL", "MongoDB", "Redis"]
+        "items": ["Git", "Docker", "Azure", "SQL Server", "PostgreSQL", "QR-Code-Systeme", "Event-Management"]
       }
     }
   },
@@ -70,18 +70,35 @@
       },
       {
         "name": "BulkaDental-Management-System",
-        "desc": "Ein plattformübergreifendes Klinikverwaltungssystem mit Behandlungsplanung und rollenbasierten Dashboards.",
+        "desc": "Ein umfassendes plattformübergreifendes Zahnklinikverwaltungssystem mit Behandlungsplanung, rollenbasierten Dashboards und Rabattautomatisierung.",
         "role": "Full-Stack-Entwickler",
-        "result": "Im klinischen Einsatz mit skalierbarer Web- und Mobilarchitektur.",
+        "result": "Im klinischen Einsatz mit modularer Skalierbarkeit für Web- und Mobilplattformen.",
         "tech": ["C#", "WPF", "Angular", "Flutter", "SQL Server"],
         "github": "https://github.com/bulsahkecici/BulkaDental"
       },
       {
-        "name": "KGM-Tunnel-Analyse-Plattform",
-        "desc": "Eine Datenanalyseplattform für die türkische Straßenbehörde (KGM) zur Prognose von Tunnelkosten und Wartungsanalysen.",
-        "role": "Data Scientist",
-        "result": "Verbesserte die Genauigkeit der Wartungskostenschätzung um 20 %.",
-        "tech": ["Python", "Pandas", "Scikit-learn", "Power BI"]
+        "name": "OpenTicket-System",
+        "desc": "Ein vollständiges Ticketverwaltungssystem mit Admin-Panel, Event-CRUD-Operationen und QR-basierten E-Tickets, entwickelt mit ASP.NET Web Forms.",
+        "role": "Full-Stack-Entwickler",
+        "result": "Umfassendes Event-Management mit QR-Code-Generierung und Ticket-Validierung implementiert.",
+        "tech": ["ASP.NET", "Web Forms", "C#", "SQL Server", "CSS"],
+        "github": "https://github.com/bulsahkecici/OpenTicket"
+      },
+      {
+        "name": "Multi-Plattform-Zahn-App",
+        "desc": "Eine plattformübergreifende Zahnanwendung mit einheitlichem Patientenmanagement und Behandlungsverfolgung für mehrere Plattformen.",
+        "role": "Full-Stack-Entwickler",
+        "result": "Skalierbare Lösung erstellt, die Web-, Mobil- und Desktop-Plattformen unterstützt.",
+        "tech": ["Flutter", "Angular", "C#", "SQL Server"],
+        "github": "https://github.com/bulsahkecici/MultiPlatformDentalApp"
+      },
+      {
+        "name": "Web-Umfrage-Projekt",
+        "desc": "Ein umfassendes webbasiertes Umfragesystem mit Datensammlung, -analyse und Berichtsfunktionen.",
+        "role": "Full-Stack-Entwickler",
+        "result": "Responsive Umfrageplattform mit Echtzeit-Datensammlung und -analytik erstellt.",
+        "tech": ["JavaScript", "HTML", "CSS", "Node.js"],
+        "github": "https://github.com/bulsahkecici/web_survey_project"
       }
     ]
   },

@@ -35,23 +35,23 @@
     "categories": {
       "languages": {
         "title": "Programlama Dilleri",
-        "items": ["Python", "JavaScript", "TypeScript", "C#", "SQL"]
+        "items": ["Python", "JavaScript", "TypeScript", "C#", "SQL", "HTML", "CSS"]
       },
       "ai_ml": {
         "title": "Yapay Zeka & Makine Öğrenimi",
-        "items": ["TensorFlow", "PyTorch", "Scikit-learn", "YOLOv8", "OpenCV", "NLP"]
+        "items": ["TensorFlow", "PyTorch", "Scikit-learn", "YOLOv8", "OpenCV", "Bilgisayarlı Görü", "Derin Öğrenme"]
       },
       "web": {
         "title": "Web Geliştirme",
-        "items": ["React", "Next.js", "Angular", "Node.js", "Tailwind CSS"]
+        "items": ["React", "Next.js", "Angular", "Node.js", "ASP.NET", "Web Forms", "Tailwind CSS"]
       },
       "mobile": {
-        "title": "Mobil Geliştirme",
-        "items": ["Flutter", "React Native"]
+        "title": "Mobil & Masaüstü",
+        "items": ["Flutter", "React Native", "WPF", "Çapraz Platform Geliştirme"]
       },
       "tools": {
         "title": "Araçlar & Platformlar",
-        "items": ["Git", "Docker", "Azure", "PostgreSQL", "MongoDB", "Redis"]
+        "items": ["Git", "Docker", "Azure", "SQL Server", "PostgreSQL", "QR Kod Sistemleri", "Etkinlik Yönetimi"]
       }
     }
   },
@@ -70,18 +70,35 @@
       },
       {
         "name": "BulkaDental Yönetim Sistemi",
-        "desc": "Tedavi planlama, rol bazlı paneller ve indirim yönetimi içeren çok platformlu bir diş kliniği yönetim sistemi.",
+        "desc": "Tedavi planlama, rol bazlı paneller ve indirim yönetimi içeren kapsamlı çok platformlu diş kliniği yönetim sistemi.",
         "role": "Tam Yığın Geliştirici",
-        "result": "Gerçek klinik ortamında kullanılmaya başlandı; web ve mobil için ölçeklenebilir yapı.",
+        "result": "Gerçek klinik ortamında kullanılmaya başlandı; web ve mobil platformlar için modüler ölçeklenebilirlik.",
         "tech": ["C#", "WPF", "Angular", "Flutter", "SQL Server"],
         "github": "https://github.com/bulsahkecici/BulkaDental"
       },
       {
-        "name": "KGM Tünel Analiz Platformu",
-        "desc": "Karayolları Genel Müdürlüğü (KGM) için tünel maliyet tahmini ve bakım analitiği sağlayan bir veri analizi altyapısı.",
-        "role": "Veri Bilimci",
-        "result": "Bakım maliyet tahmin doğruluğu %20 artırıldı.",
-        "tech": ["Python", "Pandas", "Scikit-learn", "Power BI"]
+        "name": "OpenTicket Sistemi",
+        "desc": "Admin paneli, etkinlik CRUD işlemleri ve QR tabanlı e-biletler ile ASP.NET Web Forms kullanılarak geliştirilmiş tam kapsamlı bilet yönetim sistemi.",
+        "role": "Tam Yığın Geliştirici",
+        "result": "QR kod üretimi ve bilet doğrulama ile kapsamlı etkinlik yönetimi uygulandı.",
+        "tech": ["ASP.NET", "Web Forms", "C#", "SQL Server", "CSS"],
+        "github": "https://github.com/bulsahkecici/OpenTicket"
+      },
+      {
+        "name": "Çok Platformlu Diş Uygulaması",
+        "desc": "Birleşik hasta yönetimi ve tedavi takibi ile birden fazla platformu destekleyen çapraz platform diş uygulaması.",
+        "role": "Tam Yığın Geliştirici",
+        "result": "Web, mobil ve masaüstü platformlarını destekleyen ölçeklenebilir çözüm oluşturuldu.",
+        "tech": ["Flutter", "Angular", "C#", "SQL Server"],
+        "github": "https://github.com/bulsahkecici/MultiPlatformDentalApp"
+      },
+      {
+        "name": "Web Anket Projesi",
+        "desc": "Veri toplama, analiz ve raporlama yetenekleri ile kapsamlı web tabanlı anket sistemi.",
+        "role": "Tam Yığın Geliştirici",
+        "result": "Gerçek zamanlı veri toplama ve analitik ile duyarlı anket platformu oluşturuldu.",
+        "tech": ["JavaScript", "HTML", "CSS", "Node.js"],
+        "github": "https://github.com/bulsahkecici/web_survey_project"
       }
     ]
   },

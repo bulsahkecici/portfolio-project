@@ -35,23 +35,23 @@
     "categories": {
       "languages": {
         "title": "Programming Languages",
-        "items": ["Python", "JavaScript", "TypeScript", "C#", "SQL"]
+        "items": ["Python", "JavaScript", "TypeScript", "C#", "SQL", "HTML", "CSS"]
       },
       "ai_ml": {
         "title": "AI & Machine Learning",
-        "items": ["TensorFlow", "PyTorch", "Scikit-learn", "YOLOv8", "OpenCV", "NLP"]
+        "items": ["TensorFlow", "PyTorch", "Scikit-learn", "YOLOv8", "OpenCV", "Computer Vision", "Deep Learning"]
       },
       "web": {
         "title": "Web Development",
-        "items": ["React", "Next.js", "Angular", "Node.js", "Tailwind CSS"]
+        "items": ["React", "Next.js", "Angular", "Node.js", "ASP.NET", "Web Forms", "Tailwind CSS"]
       },
       "mobile": {
-        "title": "Mobile Development",
-        "items": ["Flutter", "React Native"]
+        "title": "Mobile & Desktop",
+        "items": ["Flutter", "React Native", "WPF", "Cross-Platform Development"]
       },
       "tools": {
         "title": "Tools & Platforms",
-        "items": ["Git", "Docker", "Azure", "PostgreSQL", "MongoDB", "Redis"]
+        "items": ["Git", "Docker", "Azure", "SQL Server", "PostgreSQL", "QR Code Systems", "Event Management"]
       }
     }
   },
@@ -70,18 +70,35 @@
       },
       {
         "name": "BulkaDental Management System",
-        "desc": "A multi-platform clinic management system with treatment planning, role-based dashboards, and discount automation.",
+        "desc": "A comprehensive multi-platform dental clinic management system with treatment planning, role-based dashboards, and discount automation.",
         "role": "Full-Stack Developer",
-        "result": "Deployed for real clinical use with modular scalability for web and mobile.",
+        "result": "Deployed for real clinical use with modular scalability for web and mobile platforms.",
         "tech": ["C#", "WPF", "Angular", "Flutter", "SQL Server"],
         "github": "https://github.com/bulsahkecici/BulkaDental"
       },
       {
-        "name": "KGM Tunnel Analytics Platform",
-        "desc": "A data analysis framework for the Turkish General Directorate of Highways (KGM), providing tunnel cost prediction and maintenance analytics.",
-        "role": "Data Scientist",
-        "result": "Delivered statistical models improving maintenance cost estimation accuracy by 20%.",
-        "tech": ["Python", "Pandas", "Scikit-learn", "Power BI"]
+        "name": "OpenTicket System",
+        "desc": "A complete ticket management system with admin panel, event CRUD operations, and QR-based e-tickets built with ASP.NET Web Forms.",
+        "role": "Full-Stack Developer",
+        "result": "Implemented comprehensive event management with QR code generation and ticket validation.",
+        "tech": ["ASP.NET", "Web Forms", "C#", "SQL Server", "CSS"],
+        "github": "https://github.com/bulsahkecici/OpenTicket"
+      },
+      {
+        "name": "Multi-Platform Dental App",
+        "desc": "A cross-platform dental application supporting multiple platforms with unified patient management and treatment tracking.",
+        "role": "Full-Stack Developer",
+        "result": "Created scalable solution supporting web, mobile, and desktop platforms.",
+        "tech": ["Flutter", "Angular", "C#", "SQL Server"],
+        "github": "https://github.com/bulsahkecici/MultiPlatformDentalApp"
+      },
+      {
+        "name": "Web Survey Project",
+        "desc": "A comprehensive web-based survey system with data collection, analysis, and reporting capabilities.",
+        "role": "Full-Stack Developer",
+        "result": "Built responsive survey platform with real-time data collection and analytics.",
+        "tech": ["JavaScript", "HTML", "CSS", "Node.js"],
+        "github": "https://github.com/bulsahkecici/web_survey_project"
       }
     ]
   },
