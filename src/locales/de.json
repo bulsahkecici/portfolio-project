@@ -208,22 +208,39 @@
     "viewAll": "Alle Artikel",
     "items": [
       {
-        "title": "Skalierbare KI-Pipelines mit Python erstellen",
-        "excerpt": "Ein umfassender Leitfaden zum Entwerfen und Implementieren produktionsreifer Machine-Learning-Pipelines.",
-        "date": "2024-03-15",
-        "slug": "skalierbare-ki-pipelines"
+        "title": "KI-gestützte Fahrzeuggeschwindigkeitserkennung mit YOLOv8",
+        "excerpt": "Ein umfassender Leitfaden zur Implementierung von Echtzeit-Fahrzeuggeschwindigkeitserkennung mit YOLOv8, OpenCV und PostgreSQL. Erfahren Sie, wie Sie 95% Genauigkeit in Verkehrsüberwachungssystemen erreichen.",
+        "date": "2024-01-15",
+        "slug": "yolov8-fahrzeugerkennung",
+        "link": "https://github.com/bulsahkecici/VehicleSpeedDetection"
       },
       {
-        "title": "Objekterkennung mit YOLOv8: Ein praktischer Leitfaden",
-        "excerpt": "Lernen Sie, wie Sie Echtzeit-Objekterkennungssysteme mit der neuesten YOLO-Architektur implementieren.",
-        "date": "2024-02-20",
-        "slug": "yolov8-leitfaden"
+        "title": "Multi-Plattform-Gesundheitsmanagement: Von WPF zu Flutter",
+        "excerpt": "Erkundung der Herausforderungen und Lösungen beim Aufbau plattformübergreifender Gesundheitsmanagementsysteme. Ein tiefer Einblick in modulare Architektur und rollenbasierte Dashboards.",
+        "date": "2023-12-10",
+        "slug": "multi-plattform-gesundheitsmanagement",
+        "link": "https://github.com/bulsahkecici/BulkaDental"
       },
       {
-        "title": "Full-Stack-Entwicklung mit Next.js 15",
-        "excerpt": "Entdecken Sie die neuen Funktionen und Best Practices für moderne Webanwendungen.",
-        "date": "2024-01-10",
-        "slug": "nextjs-15-leitfaden"
+        "title": "Event-Management-Systeme: QR-Codes und digitales Ticketing",
+        "excerpt": "Aufbau umfassender Event-Management-Plattformen mit ASP.NET Web Forms. Lernen Sie über QR-Code-Generierung, Ticket-Validierung und automatisierte Event-Operationen.",
+        "date": "2023-11-25",
+        "slug": "event-management-qr-codes",
+        "link": "https://github.com/bulsahkecici/OpenTicket"
+      },
+      {
+        "title": "Plattformübergreifende Entwicklung: Lektionen aus der Dental-App-Architektur",
+        "excerpt": "Einblicke aus der Entwicklung einheitlicher Patientensysteme über Web-, Mobile- und Desktop-Plattformen. Technische Herausforderungen und Architekturentscheidungen.",
+        "date": "2023-10-18",
+        "slug": "plattformuebergreifende-dental-app",
+        "link": "https://github.com/bulsahkecici/MultiPlatformDentalApp"
+      },
+      {
+        "title": "Web-Umfrage-Systeme: Datensammlung und Analytik",
+        "excerpt": "Aufbau responsiver Umfrageplattformen mit Echtzeit-Datensammlung und Analytik. Ein praktischer Ansatz für webbasierte Forschungstools.",
+        "date": "2023-09-12",
+        "slug": "web-umfrage-analytik",
+        "link": "https://github.com/bulsahkecici/web_survey_project"
       }
     ]
   },

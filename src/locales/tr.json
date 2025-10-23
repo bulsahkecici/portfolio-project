@@ -208,22 +208,39 @@
     "viewAll": "Tüm yazılar",
     "items": [
       {
-        "title": "Python ile Ölçeklenebilir Yapay Zeka Hatları Oluşturmak",
-        "excerpt": "Üretime hazır makine öğrenimi hatlarının tasarlanması ve uygulanması için kapsamlı bir rehber.",
-        "date": "2024-03-15",
-        "slug": "olceklenebilir-ai-hatlari"
+        "title": "YOLOv8 ile Yapay Zeka Destekli Araç Hız Tespiti",
+        "excerpt": "YOLOv8, OpenCV ve PostgreSQL kullanarak gerçek zamanlı araç hız tespiti uygulama rehberi. Trafik izleme sistemlerinde %95 doğruluk oranına nasıl ulaşılacağını öğrenin.",
+        "date": "2024-01-15",
+        "slug": "yolov8-arac-hiz-tespiti",
+        "link": "https://github.com/bulsahkecici/VehicleSpeedDetection"
       },
       {
-        "title": "YOLOv8 ile Nesne Tespiti: Pratik Bir Rehber",
-        "excerpt": "En son YOLO mimarisi kullanarak gerçek zamanlı nesne tespit sistemlerinin nasıl uygulanacağını öğrenin.",
-        "date": "2024-02-20",
-        "slug": "yolov8-rehberi"
+        "title": "Çok Platformlu Sağlık Yönetimi: WPF'den Flutter'a",
+        "excerpt": "Çok platformlu sağlık yönetim sistemleri oluşturmadaki zorluklar ve çözümler. Modüler mimari ve rol tabanlı paneller hakkında derinlemesine inceleme.",
+        "date": "2023-12-10",
+        "slug": "cok-platformlu-saglik-yonetimi",
+        "link": "https://github.com/bulsahkecici/BulkaDental"
       },
       {
-        "title": "Next.js 15 ile Full-Stack Geliştirme",
-        "excerpt": "Modern web uygulamaları oluşturmak için yeni özellikler ve en iyi uygulamalar.",
-        "date": "2024-01-10",
-        "slug": "nextjs-15-rehberi"
+        "title": "Etkinlik Yönetim Sistemleri: QR Kodlar ve Dijital Biletleme",
+        "excerpt": "ASP.NET Web Forms ile kapsamlı etkinlik yönetim platformları oluşturma. QR kod üretimi, bilet doğrulama ve otomatik etkinlik operasyonları hakkında bilgi edinin.",
+        "date": "2023-11-25",
+        "slug": "etkinlik-yonetimi-qr-kodlar",
+        "link": "https://github.com/bulsahkecici/OpenTicket"
+      },
+      {
+        "title": "Çapraz Platform Geliştirme: Diş Uygulaması Mimarisi Dersleri",
+        "excerpt": "Web, mobil ve masaüstü platformları arasında birleşik hasta yönetim sistemleri geliştirmeden elde edilen içgörüler. Teknik zorluklar ve mimari kararlar.",
+        "date": "2023-10-18",
+        "slug": "capraz-platform-dis-uygulamasi",
+        "link": "https://github.com/bulsahkecici/MultiPlatformDentalApp"
+      },
+      {
+        "title": "Web Anket Sistemleri: Veri Toplama ve Analitik",
+        "excerpt": "Gerçek zamanlı veri toplama ve analitik ile duyarlı anket platformları oluşturma. Web tabanlı araştırma araçları için pratik yaklaşım.",
+        "date": "2023-09-12",
+        "slug": "web-anket-analitik",
+        "link": "https://github.com/bulsahkecici/web_survey_project"
       }
     ]
   },

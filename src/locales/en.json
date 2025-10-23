@@ -208,22 +208,39 @@
     "viewAll": "View all articles",
     "items": [
       {
-        "title": "Building Scalable AI Pipelines with Python",
-        "excerpt": "A comprehensive guide to designing and implementing production-ready machine learning pipelines.",
-        "date": "2024-03-15",
-        "slug": "scalable-ai-pipelines"
+        "title": "Building AI-Powered Vehicle Speed Detection with YOLOv8",
+        "excerpt": "A comprehensive guide to implementing real-time vehicle speed detection using YOLOv8, OpenCV, and PostgreSQL. Learn how to achieve 95% accuracy in traffic monitoring systems.",
+        "date": "2024-01-15",
+        "slug": "yolov8-vehicle-detection",
+        "link": "https://github.com/bulsahkecici/VehicleSpeedDetection"
       },
       {
-        "title": "Object Detection with YOLOv8: A Practical Guide",
-        "excerpt": "Learn how to implement real-time object detection systems using the latest YOLO architecture.",
-        "date": "2024-02-20",
-        "slug": "yolov8-guide"
+        "title": "Multi-Platform Healthcare Management: From WPF to Flutter",
+        "excerpt": "Exploring the challenges and solutions in building cross-platform healthcare management systems. A deep dive into modular architecture and role-based dashboards.",
+        "date": "2023-12-10",
+        "slug": "multi-platform-healthcare",
+        "link": "https://github.com/bulsahkecici/BulkaDental"
       },
       {
-        "title": "Full-Stack Development with Next.js 15",
-        "excerpt": "Exploring the new features and best practices for building modern web applications.",
-        "date": "2024-01-10",
-        "slug": "nextjs-15-guide"
+        "title": "Event Management Systems: QR Codes and Digital Ticketing",
+        "excerpt": "Building comprehensive event management platforms with ASP.NET Web Forms. Learn about QR code generation, ticket validation, and automated event operations.",
+        "date": "2023-11-25",
+        "slug": "event-management-qr-codes",
+        "link": "https://github.com/bulsahkecici/OpenTicket"
+      },
+      {
+        "title": "Cross-Platform Development: Lessons from Dental App Architecture",
+        "excerpt": "Insights from developing unified patient management systems across web, mobile, and desktop platforms. Technical challenges and architectural decisions.",
+        "date": "2023-10-18",
+        "slug": "cross-platform-dental-app",
+        "link": "https://github.com/bulsahkecici/MultiPlatformDentalApp"
+      },
+      {
+        "title": "Web Survey Systems: Data Collection and Analytics",
+        "excerpt": "Building responsive survey platforms with real-time data collection and analytics. A practical approach to web-based research tools.",
+        "date": "2023-09-12",
+        "slug": "web-survey-analytics",
+        "link": "https://github.com/bulsahkecici/web_survey_project"
       }
     ]
   },
