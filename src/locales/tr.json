@@ -104,6 +104,7 @@
   },
   "certificates": {
     "title": "Eğitim & Sertifikalar",
+    "viewCertificate": "Sertifikayı Gör",
     "items": [
       {
         "title": "Bilgisayar Mühendisliği",

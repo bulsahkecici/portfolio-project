@@ -104,6 +104,7 @@
   },
   "certificates": {
     "title": "Education & Certificates",
+    "viewCertificate": "View Certificate",
     "items": [
       {
         "title": "Computer Engineering",

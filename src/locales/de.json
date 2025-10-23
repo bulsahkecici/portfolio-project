@@ -104,6 +104,7 @@
   },
   "certificates": {
     "title": "Bildung & Zertifikate",
+    "viewCertificate": "Zertifikat ansehen",
     "items": [
       {
         "title": "Informatik",

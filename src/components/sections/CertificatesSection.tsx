@@ -7,6 +7,8 @@ type Certificate = {
   institution: string;
   year: string;
   type: string;
+  description?: string;
+  link?: string;
 };
 
 export default function CertificatesSection() {
@@ -33,7 +35,14 @@ export default function CertificatesSection() {
               >
                 <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full transform -translate-x-1/2 border-4 border-white dark:border-gray-800"></div>
                 
-                <div className="ml-16 md:ml-0 bg-white dark:bg-gray-900 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all border border-gray-200 dark:border-gray-700">
+                <div className={`ml-16 md:ml-0 bg-white dark:bg-gray-900 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all border border-gray-200 dark:border-gray-700 ${
+                  item.link ? 'cursor-pointer hover:border-blue-300 dark:hover:border-blue-600' : ''
+                }`}
+                onClick={() => {
+                  if (item.link) {
+                    window.open(item.link, '_blank', 'noopener,noreferrer');
+                  }
+                }}>
                   <div className="flex items-start gap-3 mb-3">
                     {item.type === "Bachelor's Degree" || item.type === "Lisans Derecesi" || item.type === "Bachelor-Abschluss" ? (
                       <GraduationCap className="text-blue-600 flex-shrink-0" size={24} />
@@ -47,6 +56,11 @@ export default function CertificatesSection() {
                       <p className="text-gray-600 dark:text-gray-400 mt-1">
                         {item.institution}
                       </p>
+                      {item.description && (
+                        <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
+                          {item.description}
+                        </p>
+                      )}
                     </div>
                   </div>
                   
@@ -57,6 +71,14 @@ export default function CertificatesSection() {
                     <span className="px-2 py-0.5 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded">
                       {item.type}
                     </span>
+                    {item.link && (
+                      <>
+                        <span className="mx-2">•</span>
+                        <span className="text-blue-600 dark:text-blue-400 hover:underline">
+                          {t("viewCertificate")}
+                        </span>
+                      </>
+                    )}
                   </div>
                 </div>
               </div>
