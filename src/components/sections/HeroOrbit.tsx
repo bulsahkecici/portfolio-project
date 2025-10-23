@@ -9,15 +9,38 @@ interface TechLogo {
 }
 
 const techLogos: TechLogo[] = [
-  {
-    name: "TensorFlow",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
-    color: "from-orange-400 to-orange-600"
-  },
+  // Programming Languages
   {
     name: "Python",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
     color: "from-yellow-400 to-yellow-600"
+  },
+  {
+    name: "JavaScript",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    color: "from-yellow-500 to-yellow-700"
+  },
+  {
+    name: "TypeScript",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    color: "from-blue-400 to-blue-600"
+  },
+  {
+    name: "C#",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+    color: "from-purple-400 to-purple-600"
+  },
+  {
+    name: "SQL",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+    color: "from-blue-500 to-blue-700"
+  },
+  
+  // AI & Machine Learning
+  {
+    name: "TensorFlow",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+    color: "from-orange-400 to-orange-600"
   },
   {
     name: "PyTorch",
@@ -25,29 +48,90 @@ const techLogos: TechLogo[] = [
     color: "from-red-400 to-red-600"
   },
   {
+    name: "Scikit-learn",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+    color: "from-orange-500 to-orange-700"
+  },
+  {
     name: "OpenCV",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg",
     color: "from-green-400 to-green-600"
   },
   {
-    name: "Keras",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg",
-    color: "from-red-500 to-red-700"
-  },
-  {
-    name: "NumPy",
+    name: "NLP",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
     color: "from-blue-400 to-blue-600"
   },
+  
+  // Web Development
   {
-    name: "pandas",
-    logo: "https://pandas.pydata.org/static/img/pandas.svg",
-    color: "from-purple-400 to-purple-600"
+    name: "React",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    color: "from-cyan-400 to-cyan-600"
   },
   {
-    name: "scikit-learn",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+    name: "Next.js",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    color: "from-gray-400 to-gray-600"
+  },
+  {
+    name: "Angular",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg",
+    color: "from-red-500 to-red-700"
+  },
+  {
+    name: "Node.js",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    color: "from-green-500 to-green-700"
+  },
+  {
+    name: "Tailwind CSS",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+    color: "from-cyan-500 to-cyan-700"
+  },
+  
+  // Mobile Development
+  {
+    name: "Flutter",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+    color: "from-blue-400 to-blue-600"
+  },
+  {
+    name: "React Native",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    color: "from-cyan-400 to-cyan-600"
+  },
+  
+  // Tools & Platforms
+  {
+    name: "Git",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
     color: "from-orange-500 to-orange-700"
+  },
+  {
+    name: "Docker",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+    color: "from-blue-500 to-blue-700"
+  },
+  {
+    name: "Azure",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
+    color: "from-blue-400 to-blue-600"
+  },
+  {
+    name: "PostgreSQL",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+    color: "from-blue-600 to-blue-800"
+  },
+  {
+    name: "MongoDB",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    color: "from-green-500 to-green-700"
+  },
+  {
+    name: "Redis",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+    color: "from-red-500 to-red-700"
   }
 ];
 
@@ -124,44 +208,57 @@ export default function HeroOrbit() {
           </div>
         </div>
 
-        {/* Orbiting tech logos */}
-        {techLogos.map((tech, index) => {
-          const angle = (index * 360) / techLogos.length;
-          const radius = 180;
-          const x = Math.cos((angle * Math.PI) / 180) * radius;
-          const y = Math.sin((angle * Math.PI) / 180) * radius;
-
+        {/* Multiple orbital rings like solar system */}
+        {[0, 1, 2].map((ringIndex) => {
+          const ringRadius = 120 + (ringIndex * 80); // 120px, 200px, 280px
+          const logosPerRing = Math.floor(techLogos.length / 3);
+          const startIndex = ringIndex * logosPerRing;
+          const endIndex = ringIndex === 2 ? techLogos.length : startIndex + logosPerRing;
+          const ringLogos = techLogos.slice(startIndex, endIndex);
+          
           return (
-            <div
-              key={tech.name}
-              className="absolute w-16 h-16 flex items-center justify-center"
-              style={{
-                left: `calc(50% + ${x}px - 2rem)`,
-                top: `calc(50% + ${y}px - 2rem)`,
-                transform: `rotate(${angle}deg)`,
-                animation: `orbit 20s linear infinite`,
-                animationDelay: `${index * 0.5}s`
-              }}
-            >
-              <div className="relative group">
-                {/* Glow effect */}
-                <div className={`absolute inset-0 rounded-full bg-gradient-to-r ${tech.color} opacity-20 blur-lg scale-150`} />
-                
-                {/* Logo container */}
-                <div className="relative w-16 h-16 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center shadow-2xl hover:scale-110 transition-all duration-300 hover:shadow-blue-500/25">
-                  <img
-                    src={tech.logo}
-                    alt={tech.name}
-                    className="w-8 h-8 object-contain filter brightness-0 invert"
-                    loading="lazy"
-                  />
-                </div>
-                
-                {/* Tooltip */}
-                <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 bg-black/80 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
-                  {tech.name}
-                </div>
-              </div>
+            <div key={ringIndex} className="absolute inset-0">
+              {ringLogos.map((tech, index) => {
+                const angle = (index * 360) / ringLogos.length;
+                const x = Math.cos((angle * Math.PI) / 180) * ringRadius;
+                const y = Math.sin((angle * Math.PI) / 180) * ringRadius;
+                const rotationSpeed = 20 + (ringIndex * 10); // Different speeds for each ring
+                const direction = ringIndex % 2 === 0 ? 1 : -1; // Alternate directions
+
+                return (
+                  <div
+                    key={`${ringIndex}-${tech.name}`}
+                    className="absolute w-12 h-12 flex items-center justify-center"
+                    style={{
+                      left: `calc(50% + ${x}px - 1.5rem)`,
+                      top: `calc(50% + ${y}px - 1.5rem)`,
+                      transform: `rotate(${angle}deg)`,
+                      animation: `orbit${ringIndex} ${rotationSpeed}s linear infinite ${direction > 0 ? 'normal' : 'reverse'}`,
+                      animationDelay: `${index * 0.3}s`
+                    }}
+                  >
+                    <div className="relative group">
+                      {/* Glow effect */}
+                      <div className={`absolute inset-0 rounded-full bg-gradient-to-r ${tech.color} opacity-20 blur-md scale-125`} />
+                      
+                      {/* Logo container */}
+                      <div className="relative w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center shadow-xl hover:scale-125 transition-all duration-300 hover:shadow-blue-500/25">
+                        <img
+                          src={tech.logo}
+                          alt={tech.name}
+                          className="w-6 h-6 object-contain filter brightness-0 invert"
+                          loading="lazy"
+                        />
+                      </div>
+                      
+                      {/* Tooltip */}
+                      <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-black/80 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap z-10">
+                        {tech.name}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           );
         })}
@@ -188,12 +285,30 @@ export default function HeroOrbit() {
       </div>
 
       <style jsx>{`
-        @keyframes orbit {
+        @keyframes orbit0 {
           from {
-            transform: rotate(0deg) translateX(180px) rotate(0deg);
+            transform: rotate(0deg) translateX(120px) rotate(0deg);
           }
           to {
-            transform: rotate(360deg) translateX(180px) rotate(-360deg);
+            transform: rotate(360deg) translateX(120px) rotate(-360deg);
+          }
+        }
+        
+        @keyframes orbit1 {
+          from {
+            transform: rotate(0deg) translateX(200px) rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg) translateX(200px) rotate(-360deg);
+          }
+        }
+        
+        @keyframes orbit2 {
+          from {
+            transform: rotate(0deg) translateX(280px) rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg) translateX(280px) rotate(-360deg);
           }
         }
       `}</style>
