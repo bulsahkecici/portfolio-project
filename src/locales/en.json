@@ -107,27 +107,90 @@
     "items": [
       {
         "title": "Computer Engineering",
-        "institution": "Ankara University",
-        "year": "2019 - 2024",
-        "type": "Bachelor's Degree"
+        "institution": "Hacettepe University",
+        "year": "2015-2019",
+        "type": "Bachelor's Degree",
+        "description": "Bachelor's degree in Computer Engineering with focus on software development and data structures."
       },
       {
-        "title": "Machine Learning Specialization",
-        "institution": "Coursera - Stanford University",
-        "year": "2023",
-        "type": "Certificate"
+        "title": "Production Level Data Science",
+        "institution": "Miuul",
+        "year": "Oct 2023",
+        "type": "Certificate",
+        "description": "Advanced data science course covering production-level implementations and best practices.",
+        "link": "https://learning.miuul.com/certificates/5wki0eixtb"
       },
       {
-        "title": "Deep Learning Specialization",
-        "institution": "Coursera - deeplearning.ai",
-        "year": "2023",
-        "type": "Certificate"
+        "title": "Python Programming for Data Science",
+        "institution": "Miuul",
+        "year": "Aug 2023",
+        "type": "Certificate",
+        "description": "Comprehensive Python programming course specifically designed for data science applications.",
+        "link": "https://learning.miuul.com/certificates/mk62kdvvsv"
       },
       {
-        "title": "Azure AI Fundamentals",
-        "institution": "Microsoft",
-        "year": "2022",
-        "type": "Certificate"
+        "title": "CRM Analytics",
+        "institution": "Miuul",
+        "year": "Jan 2023",
+        "type": "Certificate",
+        "description": "Customer relationship management analytics and data-driven business insights.",
+        "link": "https://learning.miuul.com/certificates/zyjl4bwcip"
+      },
+      {
+        "title": "Feature Engineering",
+        "institution": "Miuul",
+        "year": "Jan 2023",
+        "type": "Certificate",
+        "description": "Advanced techniques for creating and selecting optimal features for machine learning models.",
+        "link": "https://learning.miuul.com/certificates/o1qabmvoqd"
+      },
+      {
+        "title": "Machine Learning",
+        "institution": "Miuul",
+        "year": "Jan 2023",
+        "type": "Certificate",
+        "description": "Comprehensive machine learning course covering algorithms, model evaluation, and implementation.",
+        "link": "https://learning.miuul.com/certificates/7i9tptlrym"
+      },
+      {
+        "title": "Measurement Problems",
+        "institution": "Miuul",
+        "year": "Jan 2023",
+        "type": "Certificate",
+        "description": "Advanced analytics course focusing on measurement and evaluation methodologies in data science.",
+        "link": "https://learning.miuul.com/certificates/12xpzmtlyg"
+      },
+      {
+        "title": "Querying MS SQL",
+        "institution": "Miuul",
+        "year": "Jan 2023",
+        "type": "Certificate",
+        "description": "Database management and advanced SQL querying techniques for data analysis.",
+        "link": "https://learning.miuul.com/certificates/gs612yrbsw"
+      },
+      {
+        "title": "Recommendation Systems",
+        "institution": "Miuul",
+        "year": "Jan 2023",
+        "type": "Certificate",
+        "description": "Building and implementing recommendation systems using machine learning algorithms.",
+        "link": "https://learning.miuul.com/certificates/fwowaskw3e"
+      },
+      {
+        "title": "Introduction to Data Science and Artificial Intelligence",
+        "institution": "Miuul",
+        "year": "Nov 2022",
+        "type": "Certificate",
+        "description": "Foundational course covering the basics of data science and AI methodologies.",
+        "link": "https://learning.miuul.com/certificates/sy8esiybxt"
+      },
+      {
+        "title": "A'dan Z'ye Python Dili ve Makine Öğrenmesi için Python",
+        "institution": "Udemy",
+        "year": "Jun 2022",
+        "type": "Certificate",
+        "description": "Comprehensive Python programming course from basics to machine learning applications.",
+        "link": "https://www.udemy.com/certificate/UC-6a339b8e-c19d-41fa-868c-cbc4590946d7/"
       }
     ]
   },

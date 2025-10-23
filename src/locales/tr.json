@@ -107,27 +107,90 @@
     "items": [
       {
         "title": "Bilgisayar Mühendisliği",
-        "institution": "Ankara Üniversitesi",
-        "year": "2019 - 2024",
-        "type": "Lisans Derecesi"
+        "institution": "Hacettepe Üniversitesi",
+        "year": "2015-2019",
+        "type": "Lisans Derecesi",
+        "description": "Yazılım geliştirme ve veri yapıları odaklı Bilgisayar Mühendisliği lisans derecesi."
       },
       {
-        "title": "Machine Learning Specialization",
-        "institution": "Coursera - Stanford University",
-        "year": "2023",
-        "type": "Sertifika"
+        "title": "Production Level Data Science",
+        "institution": "Miuul",
+        "year": "Eki 2023",
+        "type": "Sertifika",
+        "description": "Üretim seviyesi uygulamalar ve en iyi uygulamaları kapsayan ileri düzey veri bilimi kursu.",
+        "link": "https://learning.miuul.com/certificates/5wki0eixtb"
       },
       {
-        "title": "Deep Learning Specialization",
-        "institution": "Coursera - deeplearning.ai",
-        "year": "2023",
-        "type": "Sertifika"
+        "title": "Python Programming for Data Science",
+        "institution": "Miuul",
+        "year": "Ağu 2023",
+        "type": "Sertifika",
+        "description": "Veri bilimi uygulamaları için özel olarak tasarlanmış kapsamlı Python programlama kursu.",
+        "link": "https://learning.miuul.com/certificates/mk62kdvvsv"
       },
       {
-        "title": "Azure AI Fundamentals",
-        "institution": "Microsoft",
-        "year": "2022",
-        "type": "Sertifika"
+        "title": "CRM Analytics",
+        "institution": "Miuul",
+        "year": "Oca 2023",
+        "type": "Sertifika",
+        "description": "Müşteri ilişkileri yönetimi analitiği ve veri odaklı iş içgörüleri.",
+        "link": "https://learning.miuul.com/certificates/zyjl4bwcip"
+      },
+      {
+        "title": "Feature Engineering",
+        "institution": "Miuul",
+        "year": "Oca 2023",
+        "type": "Sertifika",
+        "description": "Makine öğrenimi modelleri için optimal özellikler oluşturma ve seçme teknikleri.",
+        "link": "https://learning.miuul.com/certificates/o1qabmvoqd"
+      },
+      {
+        "title": "Machine Learning",
+        "institution": "Miuul",
+        "year": "Oca 2023",
+        "type": "Sertifika",
+        "description": "Algoritmalar, model değerlendirme ve uygulama kapsayan kapsamlı makine öğrenimi kursu.",
+        "link": "https://learning.miuul.com/certificates/7i9tptlrym"
+      },
+      {
+        "title": "Measurement Problems",
+        "institution": "Miuul",
+        "year": "Oca 2023",
+        "type": "Sertifika",
+        "description": "Veri biliminde ölçüm ve değerlendirme metodolojilerine odaklanan ileri düzey analitik kursu.",
+        "link": "https://learning.miuul.com/certificates/12xpzmtlyg"
+      },
+      {
+        "title": "Querying MS SQL",
+        "institution": "Miuul",
+        "year": "Oca 2023",
+        "type": "Sertifika",
+        "description": "Veri analizi için veritabanı yönetimi ve ileri düzey SQL sorgulama teknikleri.",
+        "link": "https://learning.miuul.com/certificates/gs612yrbsw"
+      },
+      {
+        "title": "Recommendation Systems",
+        "institution": "Miuul",
+        "year": "Oca 2023",
+        "type": "Sertifika",
+        "description": "Makine öğrenimi algoritmaları kullanarak öneri sistemleri oluşturma ve uygulama.",
+        "link": "https://learning.miuul.com/certificates/fwowaskw3e"
+      },
+      {
+        "title": "Introduction to Data Science and Artificial Intelligence",
+        "institution": "Miuul",
+        "year": "Kas 2022",
+        "type": "Sertifika",
+        "description": "Veri bilimi ve yapay zeka metodolojilerinin temellerini kapsayan temel kurs.",
+        "link": "https://learning.miuul.com/certificates/sy8esiybxt"
+      },
+      {
+        "title": "A'dan Z'ye Python Dili ve Makine Öğrenmesi için Python",
+        "institution": "Udemy",
+        "year": "Haz 2022",
+        "type": "Sertifika",
+        "description": "Temellerden makine öğrenimi uygulamalarına kadar kapsamlı Python programlama kursu.",
+        "link": "https://www.udemy.com/certificate/UC-6a339b8e-c19d-41fa-868c-cbc4590946d7/"
       }
     ]
   },
