@@ -1,268 +1,131 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import React from "react";
 
-interface TechLogo {
-  name: string;
-  logo: string;
-  color: string;
-}
+const defaultLogos = [
+  { src: "https://cdn.simpleicons.org/tensorflow/FF6F00", alt: "TensorFlow", href: "https://www.tensorflow.org/" },
+  { src: "https://cdn.simpleicons.org/python/3776AB", alt: "Python", href: "https://www.python.org/" },
+  { src: "https://cdn.simpleicons.org/pytorch/EE4C2C", alt: "PyTorch", href: "https://pytorch.org/" },
+  { src: "https://cdn.simpleicons.org/opencv/5C3EE8", alt: "OpenCV", href: "https://opencv.org/" },
+  { src: "https://cdn.simpleicons.org/keras/D00000", alt: "Keras", href: "https://keras.io/" },
+  { src: "https://cdn.simpleicons.org/numpy/013243", alt: "NumPy", href: "https://numpy.org/" },
+  { src: "https://cdn.simpleicons.org/pandas/150458", alt: "pandas", href: "https://pandas.pydata.org/" },
+  { src: "https://cdn.simpleicons.org/scikitlearn/F7931E", alt: "scikit-learn", href: "https://scikit-learn.org/" },
+];
 
-// Skills categories with their respective tech logos
-const skillsCategories = {
-  languages: {
-    title: "Programming Languages",
-    items: [
-      { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", color: "from-yellow-400 to-yellow-600" },
-      { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", color: "from-yellow-500 to-yellow-700" },
-      { name: "TypeScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg", color: "from-blue-400 to-blue-600" },
-      { name: "C#", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg", color: "from-purple-400 to-purple-600" },
-      { name: "SQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", color: "from-blue-500 to-blue-700" }
-    ]
-  },
-  ai_ml: {
-    title: "AI & Machine Learning",
-    items: [
-      { name: "TensorFlow", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg", color: "from-orange-400 to-orange-600" },
-      { name: "PyTorch", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg", color: "from-red-400 to-red-600" },
-      { name: "Scikit-learn", logo: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg", color: "from-orange-500 to-orange-700" },
-      { name: "OpenCV", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg", color: "from-green-400 to-green-600" },
-      { name: "NLP", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg", color: "from-blue-400 to-blue-600" }
-    ]
-  },
-  web: {
-    title: "Web Development",
-    items: [
-      { name: "React", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", color: "from-cyan-400 to-cyan-600" },
-      { name: "Next.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg", color: "from-gray-400 to-gray-600" },
-      { name: "Angular", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg", color: "from-red-500 to-red-700" },
-      { name: "Node.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", color: "from-green-500 to-green-700" },
-      { name: "Tailwind CSS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg", color: "from-cyan-500 to-cyan-700" }
-    ]
-  },
-  mobile: {
-    title: "Mobile Development",
-    items: [
-      { name: "Flutter", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg", color: "from-blue-400 to-blue-600" },
-      { name: "React Native", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", color: "from-cyan-400 to-cyan-600" }
-    ]
-  },
-  tools: {
-    title: "Tools & Platforms",
-    items: [
-      { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", color: "from-orange-500 to-orange-700" },
-      { name: "Docker", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg", color: "from-blue-500 to-blue-700" },
-      { name: "Azure", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg", color: "from-blue-400 to-blue-600" },
-      { name: "PostgreSQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg", color: "from-blue-600 to-blue-800" },
-      { name: "MongoDB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg", color: "from-green-500 to-green-700" },
-      { name: "Redis", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg", color: "from-red-500 to-red-700" }
-    ]
-  }
-};
-
-export default function HeroOrbit() {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [isHovered, setIsHovered] = useState(false);
-
-  useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      if (containerRef.current) {
-        const rect = containerRef.current.getBoundingClientRect();
-        const centerX = rect.left + rect.width / 2;
-        const centerY = rect.top + rect.height / 2;
-        
-        const deltaX = (e.clientX - centerX) / (rect.width / 2);
-        const deltaY = (e.clientY - centerY) / (rect.height / 2);
-        
-        setMousePosition({
-          x: Math.max(-1, Math.min(1, deltaX)),
-          y: Math.max(-1, Math.min(1, deltaY))
-        });
-      }
-    };
-
-    window.addEventListener("mousemove", handleMouseMove);
-    return () => window.removeEventListener("mousemove", handleMouseMove);
-  }, []);
-
-  const tiltX = mousePosition.y * 15;
-  const tiltY = mousePosition.x * 15;
-
+export default function HeroOrbit({
+  centerText = "Hi, I'm Bulşah",
+  logos = defaultLogos,
+}: {
+  centerText?: string;
+  logos?: { src: string; alt: string; href?: string }[];
+}) {
   return (
-    <div className="relative w-full h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900">
-      {/* Background glow effect */}
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 via-purple-600/20 to-pink-600/20 animate-pulse" />
-      
-      {/* Hand arc lines */}
-      <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2">
-        <div className="relative">
-          {/* Left hand arc */}
-          <div className="absolute -left-32 top-0 w-32 h-16 border-t-2 border-l-2 border-blue-400/30 rounded-tl-full transform -rotate-12 origin-bottom" />
-          {/* Right hand arc */}
-          <div className="absolute -right-32 top-0 w-32 h-16 border-t-2 border-r-2 border-purple-400/30 rounded-tr-full transform rotate-12 origin-bottom" />
-          {/* Glow effect for arcs */}
-          <div className="absolute -left-32 top-0 w-32 h-16 border-t-2 border-l-2 border-blue-400/60 rounded-tl-full transform -rotate-12 origin-bottom blur-sm" />
-          <div className="absolute -right-32 top-0 w-32 h-16 border-t-2 border-r-2 border-purple-400/60 rounded-tr-full transform rotate-12 origin-bottom blur-sm" />
-        </div>
-      </div>
+    <div className="relative min-h-screen w-full overflow-hidden bg-bg text-fg">
+      {/* subtle radial glow */}
+      <div className="pointer-events-none absolute inset-0 [background:radial-gradient(60%_60%_at_50%_40%,rgba(122,162,247,0.12),transparent_60%)]" />
 
-      {/* Main orbit container */}
-      <div
-        ref={containerRef}
-        className="relative w-96 h-96"
-        style={{
-          transform: `perspective(1000px) rotateX(${tiltX}deg) rotateY(${tiltY}deg)`,
-          transition: isHovered ? "none" : "transform 0.1s ease-out"
-        }}
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
-      >
-        {/* Central glowing text */}
-        <div className="absolute inset-0 flex items-center justify-center z-10">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-2 drop-shadow-2xl">
-              Hi, I'm{" "}
-              <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-pulse">
-                Bulşah
-              </span>
-            </h1>
-            <p className="text-lg text-gray-300 font-light">
-              Data Scientist & Engineer
-            </p>
-          </div>
-        </div>
+      <div className="relative mx-auto flex min-h-screen max-w-6xl items-center justify-center px-6">
+        <div className="relative h-[32rem] w-[32rem] max-w-[90vw] max-h-[90vh]">
+          {/* rotating outline */}
+          <div className="absolute inset-0 animate-orbit-slow rounded-full border border-border/60" />
 
-        {/* 5 orbital rings for each skills category */}
-        {Object.entries(skillsCategories).map(([categoryKey, category], ringIndex) => {
-          const ringRadius = 100 + (ringIndex * 60); // 100px, 160px, 220px, 280px, 340px
-          const rotationSpeed = 15 + (ringIndex * 5); // Different speeds: 15s, 20s, 25s, 30s, 35s
-          const direction = ringIndex % 2 === 0 ? 1 : -1; // Alternate directions
-          
-          return (
-            <div key={categoryKey} className="absolute inset-0">
-              {/* Category title */}
-              <div 
-                className="absolute text-xs font-semibold text-white/60 text-center"
-                style={{
-                  left: `calc(50% - 60px)`,
-                  top: `calc(50% - ${ringRadius + 40}px)`,
-                  width: '120px'
-                }}
-              >
-                {category.title}
-              </div>
-              
-              {/* Orbital logos for this category */}
-              {category.items.map((tech, index) => {
-                const angle = (index * 360) / category.items.length;
-                const x = Math.cos((angle * Math.PI) / 180) * ringRadius;
-                const y = Math.sin((angle * Math.PI) / 180) * ringRadius;
+          {/* dotted accent */}
+          <div className="absolute inset-0 rounded-full [background:
+            radial-gradient(circle_at_center,transparent_45%,rgba(255,255,255,0.06)_46%,transparent_47%),
+            conic-gradient(from_0deg,transparent_0_340deg,rgba(255,255,255,0.12)_340deg_360deg)
+          ]" />
 
-                return (
-                  <div
-                    key={`${categoryKey}-${tech.name}`}
-                    className="absolute w-10 h-10 flex items-center justify-center"
-                    style={{
-                      left: `calc(50% + ${x}px - 1.25rem)`,
-                      top: `calc(50% + ${y}px - 1.25rem)`,
-                      transform: `rotate(${angle}deg)`,
-                      animation: `orbit${ringIndex} ${rotationSpeed}s linear infinite ${direction > 0 ? 'normal' : 'reverse'}`,
-                      animationDelay: `${index * 0.2}s`
-                    }}
-                  >
-                    <div className="relative group">
-                      {/* Glow effect */}
-                      <div className={`absolute inset-0 rounded-full bg-gradient-to-r ${tech.color} opacity-20 blur-sm scale-110`} />
-                      
-                      {/* Logo container */}
-                      <div className="relative w-10 h-10 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center shadow-lg hover:scale-125 transition-all duration-300 hover:shadow-blue-500/25">
-                        <img
-                          src={tech.logo}
-                          alt={tech.name}
-                          className="w-5 h-5 object-contain filter brightness-0 invert"
-                          loading="lazy"
-                        />
-                      </div>
-                      
-                      {/* Tooltip */}
-                      <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-black/80 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap z-10">
-                        {tech.name}
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
+          {/* center badge */}
+          <div className="absolute left-1/2 top-1/2 z-20 -translate-x-1/2 -translate-y-1/2">
+            <div className="rounded-2xl border border-border bg-surface/80 px-6 py-4 backdrop-blur-md shadow-[0_0_40px_rgba(122,162,247,0.35)]">
+              <h1 className="text-center text-3xl font-semibold tracking-tight sm:text-4xl">
+                {centerText}
+              </h1>
             </div>
-          );
-        })}
+          </div>
 
-        {/* Orbital path indicator */}
-        <div className="absolute inset-0 rounded-full border border-white/10 animate-spin" style={{ animationDuration: "30s" }} />
-        <div className="absolute inset-4 rounded-full border border-white/5 animate-spin" style={{ animationDuration: "25s", animationDirection: "reverse" }} />
+          {/* orbiting balls */}
+          <ul className="absolute inset-0 list-none">
+            {logos.map((item, i) => {
+              const angle = (i / logos.length) * 360;
+              const delay = (i / logos.length) * -4;
+              return (
+                <li
+                  key={i}
+                  style={
+                    {
+                      ["--angle" as any]: `${angle}deg`,
+                      ["--delay" as any]: `${delay}s`,
+                      ["--orb" as any]: `64px`,
+                    } as React.CSSProperties
+                  }
+                  className="orb absolute left-1/2 top-1/2 h-16 w-16 -translate-x-1/2 -translate-y-1/2"
+                >
+                  <a
+                    href={item.href || undefined}
+                    target={item.href ? "_blank" : undefined}
+                    rel={item.href ? "noreferrer" : undefined}
+                    className="group block h-full w-full"
+                    aria-label={item.alt}
+                    title={item.alt}
+                  >
+                    <div className="ball grid h-full w-full place-items-center rounded-full border border-border bg-surface/70 backdrop-blur-md shadow-[0_8px_30px_rgba(0,0,0,0.5)] transition-transform duration-300 group-hover:scale-110">
+                      <div className="pointer-events-none absolute inset-0 rounded-full [box-shadow:inset_0_0_36px_rgba(122,162,247,0.22)]" />
+                      <img
+                        src={item.src}
+                        alt={item.alt}
+                        className="h-8 w-8 opacity-90"
+                        loading="eager"
+                        decoding="async"
+                      />
+                    </div>
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
 
-      {/* Floating particles */}
-      <div className="absolute inset-0 pointer-events-none">
-        {[...Array(20)].map((_, i) => (
-          <div
-            key={i}
-            className="absolute w-1 h-1 bg-white/30 rounded-full animate-pulse"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 3}s`,
-              animationDuration: `${2 + Math.random() * 3}s`
-            }}
-          />
-        ))}
+      {/* footer hint */}
+      <div className="pointer-events-none absolute bottom-6 left-0 right-0 mx-auto w-full max-w-6xl px-6 text-center text-sm text-muted">
+        Hover logos • Click opens official site (if provided)
       </div>
 
       <style jsx>{`
-        @keyframes orbit0 {
-          from {
-            transform: rotate(0deg) translateX(100px) rotate(0deg);
+        :root {
+          --ring-size: 32rem;
+          --ring-radius: calc(var(--ring-size) / 2);
+        }
+        @keyframes orbit-slow { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        .animate-orbit-slow { animation: orbit-slow 28s linear infinite; }
+
+        .orb { transform-origin: center; }
+        .orb::before {
+          content: "";
+          position: absolute; inset: 0;
+          transform: rotate(var(--angle, 0deg))
+                     translate(calc(var(--ring-radius) - calc(var(--orb, 64px) / 2)))
+                     rotate(calc(-1 * var(--angle, 0deg)));
+          transform-origin: center;
+          animation: revolve 22s linear var(--delay, 0s) infinite;
+        }
+        @keyframes revolve {
+          0% {
+            transform: rotate(var(--angle, 0deg))
+                       translate(calc(var(--ring-radius) - calc(var(--orb, 64px) / 2)))
+                       rotate(calc(-1 * var(--angle, 0deg)));
           }
-          to {
-            transform: rotate(360deg) translateX(100px) rotate(-360deg);
+          100% {
+            transform: rotate(calc(360deg + var(--angle, 0deg)))
+                       translate(calc(var(--ring-radius) - calc(var(--orb, 64px) / 2)))
+                       rotate(calc(-360deg - var(--angle, 0deg)));
           }
         }
-        
-        @keyframes orbit1 {
-          from {
-            transform: rotate(0deg) translateX(160px) rotate(0deg);
-          }
-          to {
-            transform: rotate(360deg) translateX(160px) rotate(-360deg);
-          }
-        }
-        
-        @keyframes orbit2 {
-          from {
-            transform: rotate(0deg) translateX(220px) rotate(0deg);
-          }
-          to {
-            transform: rotate(360deg) translateX(220px) rotate(-360deg);
-          }
-        }
-        
-        @keyframes orbit3 {
-          from {
-            transform: rotate(0deg) translateX(280px) rotate(0deg);
-          }
-          to {
-            transform: rotate(360deg) translateX(280px) rotate(-360deg);
-          }
-        }
-        
-        @keyframes orbit4 {
-          from {
-            transform: rotate(0deg) translateX(340px) rotate(0deg);
-          }
-          to {
-            transform: rotate(360deg) translateX(340px) rotate(-360deg);
-          }
-        }
+        .ball { animation: floaty 3s ease-in-out var(--delay, 0s) infinite alternate; }
+        @keyframes floaty { 0% { transform: translateY(0) scale(1); } 100% { transform: translateY(-6px) scale(1.02); } }
+        @media (max-width: 640px) { :root { --ring-size: 22rem; } }
       `}</style>
     </div>
   );

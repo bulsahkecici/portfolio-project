@@ -2,13 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* Tokyo Night × Nord inspired */
+  --bg: #1a1b26;       /* page background */
+  --surface: #222436;  /* cards/surfaces */
+  --fg: #e5e7eb;       /* main text */
+  --muted: #9aa0aa;    /* secondary text */
+  --border: rgba(255,255,255,0.12);
+
+  --primary: #7aa2f7;  /* blue */
+  --secondary: #bb9af7;/* purple */
+  --accent: #9ece6a;   /* green */
+  --danger: #f7768e;   /* red/pink */
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
+    background: var(--bg);
+    color: var(--fg);
   }
 
   body {
     @apply antialiased;
+    background: var(--bg);
+    color: var(--fg);
+  }
+
+  a {
+    color: var(--primary);
+  }
+
+  *:focus {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
   }
 }
 
