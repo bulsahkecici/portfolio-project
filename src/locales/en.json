@@ -107,20 +107,6 @@
     "viewCertificate": "View Certificate",
     "items": [
       {
-        "title": "Computer Engineering",
-        "institution": "Ahmet Yesevi University",
-        "year": "Jun 2021",
-        "type": "Bachelor's Degree",
-        "description": "Bachelor of Engineering in Computer Engineering with focus on software development and data structures."
-      },
-      {
-        "title": "Statistics",
-        "institution": "Ankara University",
-        "year": "2013",
-        "type": "Bachelor's Degree",
-        "description": "Bachelor's degree in Statistics providing strong foundation in statistical analysis and data interpretation."
-      },
-      {
         "title": "Production Level Data Science",
         "institution": "Miuul",
         "year": "Oct 2023",
@@ -199,6 +185,20 @@
         "type": "Certificate",
         "description": "Comprehensive Python programming course from basics to machine learning applications.",
         "link": "https://www.udemy.com/certificate/UC-6a339b8e-c19d-41fa-868c-cbc4590946d7/"
+      },
+      {
+        "title": "Computer Engineering",
+        "institution": "Ahmet Yesevi University",
+        "year": "Jun 2021",
+        "type": "Bachelor's Degree",
+        "description": "Bachelor of Engineering in Computer Engineering with focus on software development and data structures."
+      },
+      {
+        "title": "Statistics",
+        "institution": "Ankara University",
+        "year": "2013",
+        "type": "Bachelor's Degree",
+        "description": "Bachelor's degree in Statistics providing strong foundation in statistical analysis and data interpretation."
       }
     ]
   },

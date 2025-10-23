@@ -107,20 +107,6 @@
     "viewCertificate": "Sertifikayı Gör",
     "items": [
       {
-        "title": "Bilgisayar Mühendisliği",
-        "institution": "Ahmet Yesevi Üniversitesi",
-        "year": "Haz 2021",
-        "type": "Lisans Derecesi",
-        "description": "Yazılım geliştirme ve veri yapıları odaklı Bilgisayar Mühendisliği lisans derecesi."
-      },
-      {
-        "title": "İstatistik",
-        "institution": "Ankara Üniversitesi",
-        "year": "2013",
-        "type": "Lisans Derecesi",
-        "description": "İstatistiksel analiz ve veri yorumlama konularında güçlü temel sağlayan İstatistik lisans derecesi."
-      },
-      {
         "title": "Production Level Data Science",
         "institution": "Miuul",
         "year": "Eki 2023",
@@ -199,6 +185,20 @@
         "type": "Sertifika",
         "description": "Temellerden makine öğrenimi uygulamalarına kadar kapsamlı Python programlama kursu.",
         "link": "https://www.udemy.com/certificate/UC-6a339b8e-c19d-41fa-868c-cbc4590946d7/"
+      },
+      {
+        "title": "Bilgisayar Mühendisliği",
+        "institution": "Ahmet Yesevi Üniversitesi",
+        "year": "Haz 2021",
+        "type": "Lisans Derecesi",
+        "description": "Yazılım geliştirme ve veri yapıları odaklı Bilgisayar Mühendisliği lisans derecesi."
+      },
+      {
+        "title": "İstatistik",
+        "institution": "Ankara Üniversitesi",
+        "year": "2013",
+        "type": "Lisans Derecesi",
+        "description": "İstatistiksel analiz ve veri yorumlama konularında güçlü temel sağlayan İstatistik lisans derecesi."
       }
     ]
   },

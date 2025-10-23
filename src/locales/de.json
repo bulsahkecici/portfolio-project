@@ -107,20 +107,6 @@
     "viewCertificate": "Zertifikat ansehen",
     "items": [
       {
-        "title": "Informatik",
-        "institution": "Ahmet Yesevi Universität",
-        "year": "Jun 2021",
-        "type": "Bachelor-Abschluss",
-        "description": "Bachelor of Engineering in Informatik mit Schwerpunkt auf Softwareentwicklung und Datenstrukturen."
-      },
-      {
-        "title": "Statistik",
-        "institution": "Ankara Universität",
-        "year": "2013",
-        "type": "Bachelor-Abschluss",
-        "description": "Bachelor-Abschluss in Statistik mit starkem Fundament in statistischer Analyse und Dateninterpretation."
-      },
-      {
         "title": "Production Level Data Science",
         "institution": "Miuul",
         "year": "Okt 2023",
@@ -199,6 +185,20 @@
         "type": "Zertifikat",
         "description": "Umfassender Python-Programmierkurs von den Grundlagen bis zu Machine Learning-Anwendungen.",
         "link": "https://www.udemy.com/certificate/UC-6a339b8e-c19d-41fa-868c-cbc4590946d7/"
+      },
+      {
+        "title": "Informatik",
+        "institution": "Ahmet Yesevi Universität",
+        "year": "Jun 2021",
+        "type": "Bachelor-Abschluss",
+        "description": "Bachelor of Engineering in Informatik mit Schwerpunkt auf Softwareentwicklung und Datenstrukturen."
+      },
+      {
+        "title": "Statistik",
+        "institution": "Ankara Universität",
+        "year": "2013",
+        "type": "Bachelor-Abschluss",
+        "description": "Bachelor-Abschluss in Statistik mit starkem Fundament in statistischer Analyse und Dateninterpretation."
       }
     ]
   },
