@@ -17,18 +17,18 @@
   },
   "about": {
     "title": "About Me",
-    "bio": "I'm Bulşah Keçici — a Data Scientist and Computer Engineer based in Ankara, Turkey. With over 5 years of experience, I specialize in transforming complex data into actionable insights through machine learning, computer vision, and intelligent automation. My work focuses on building scalable AI systems that solve real-world problems, from predictive analytics to automated decision-making processes. I combine deep technical expertise in data science with full-stack development skills to create end-to-end solutions that drive measurable business impact. My multidisciplinary approach bridges the gap between cutting-edge research and practical implementation, enabling organizations to harness the power of artificial intelligence. I'm passionate about innovation and open to collaborating on global projects that push the boundaries of what's possible with data and technology.",
+    "bio": "I'm Bulşah Keçici, a Data Scientist and Computer Engineer based in Ankara, Turkey, with over 9 years of experience in developing AI-driven analytical and automation systems. I specialize in transforming complex data into actionable insights through machine learning, computer vision, and intelligent process automation. My background combines statistical expertise and full-stack development, allowing me to design end-to-end AI solutions — from data processing pipelines to production-ready deployment. My work focuses on real-world problem-solving across infrastructure analytics, automation, and decision-support systems. I bridge the gap between research and implementation, using Python, SQL, and modern DevOps tools (Docker, Kubernetes, Git) to deliver scalable, measurable results. Passionate about innovation and cross-border collaboration, I'm open to opportunities in Germany and across Europe to build intelligent systems that shape the future of data-driven decision making.",
     "highlights": {
       "title": "Career Highlights",
       "items": [
-        "5+ years of experience in data science and software engineering",
+        "9+ years of experience in data science and software engineering",
         "Built AI-powered systems with 95%+ accuracy",
         "Developed multi-platform healthcare management systems",
         "Expertise in Python, Machine Learning, and Full-Stack Development"
       ]
     },
     "location": "Ankara, Turkey",
-    "availability": "Available for remote opportunities"
+    "availability": "Open to relocation and collaboration in Germany and across Europe"
   },
   "skills": {
     "title": "Skills & Technologies",

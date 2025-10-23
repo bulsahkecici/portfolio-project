@@ -17,18 +17,18 @@
   },
   "about": {
     "title": "Hakkımda",
-    "bio": "Ben Bulşah Keçici — Ankara'da yaşayan bir Veri Bilimci ve Bilgisayar Mühendisiyim. 5 yılı aşkın deneyimimle, karmaşık verileri makine öğrenimi, bilgisayarlı görü ve akıllı otomasyon yoluyla eyleme dönüştürülebilir içgörülere dönüştürme konusunda uzmanlaştım. Çalışmalarım, tahmine dayalı analitikten otomatik karar verme süreçlerine kadar gerçek dünya problemlerini çözen ölçeklenebilir yapay zeka sistemleri oluşturmaya odaklanıyor. Veri bilimindeki derin teknik uzmanlığımı tam yığın geliştirme becerilerimle birleştirerek, ölçülebilir iş etkisi yaratan uçtan uca çözümler geliştiriyorum. Disiplinler arası yaklaşımım, en son araştırmalar ile pratik uygulama arasındaki boşluğu kapatarak, organizasyonların yapay zekanın gücünden yararlanmasını sağlıyor. İnovasyona tutkulu bir şekilde, veri ve teknolojiyle mümkün olanın sınırlarını zorlayan küresel projelerde işbirliği yapmaya açığım.",
+    "bio": "Ben Bulşah Keçici, Ankara'da yaşayan bir Veri Bilimci ve Bilgisayar Mühendisiyim. Yapay zeka destekli analitik ve otomasyon sistemleri geliştirmede 9 yılı aşkın deneyime sahibim. Karmaşık verileri makine öğrenimi, bilgisayarlı görü ve akıllı süreç otomasyonu yoluyla eyleme dönüştürülebilir içgörülere dönüştürme konusunda uzmanlaştım. İstatistiksel uzmanlık ve tam yığın geliştirme geçmişimi birleştirerek, veri işleme boru hatlarından üretim hazır dağıtıma kadar uçtan uca yapay zeka çözümleri tasarlayabiliyorum. Çalışmalarım, altyapı analitiği, otomasyon ve karar destek sistemleri genelinde gerçek dünya problem çözme üzerine odaklanıyor. Python, SQL ve modern DevOps araçları (Docker, Kubernetes, Git) kullanarak araştırma ile uygulama arasındaki boşluğu kapatıyor, ölçeklenebilir ve ölçülebilir sonuçlar sunuyorum. İnovasyon ve sınır ötesi işbirliğine tutkulu olarak, veri odaklı karar vermenin geleceğini şekillendiren akıllı sistemler oluşturmak için Almanya ve Avrupa genelinde fırsatlara açığım.",
     "highlights": {
       "title": "Kariyer Öne Çıkanlar",
       "items": [
-        "5+ yıllık veri bilimi ve yazılım mühendisliği deneyimi",
+        "9+ yıllık veri bilimi ve yazılım mühendisliği deneyimi",
         "%95+ doğruluk oranıyla yapay zeka sistemleri geliştirdim",
         "Çok platformlu sağlık yönetim sistemleri oluşturdum",
         "Python, Makine Öğrenimi ve Full-Stack geliştirmede uzmanım"
       ]
     },
     "location": "Ankara, Türkiye",
-    "availability": "Uzaktan çalışma fırsatlarına açığım"
+    "availability": "Almanya ve Avrupa genelinde yeniden yerleşim ve işbirliğine açığım"
   },
   "skills": {
     "title": "Beceriler & Teknolojiler",
