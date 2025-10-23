@@ -31,10 +31,15 @@ export default function HeroOrbit({
           <div className="absolute inset-0 animate-orbit-slow rounded-full border border-border/60" />
 
           {/* dotted accent */}
-          <div className="absolute inset-0 rounded-full [background:
-            radial-gradient(circle_at_center,transparent_45%,rgba(255,255,255,0.06)_46%,transparent_47%),
-            conic-gradient(from_0deg,transparent_0_340deg,rgba(255,255,255,0.12)_340deg_360deg)
-          ]" />
+          <div 
+            className="absolute inset-0 rounded-full"
+            style={{
+              background: `
+                radial-gradient(circle_at_center,transparent_45%,rgba(255,255,255,0.06)_46%,transparent_47%),
+                conic-gradient(from_0deg,transparent_0_340deg,rgba(255,255,255,0.12)_340deg_360deg)
+              `
+            }}
+          />
 
           {/* center badge */}
           <div className="absolute left-1/2 top-1/2 z-20 -translate-x-1/2 -translate-y-1/2">
