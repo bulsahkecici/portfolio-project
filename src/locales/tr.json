@@ -17,14 +17,17 @@
   },
   "about": {
     "title": "Hakkımda",
-    "bio": "Ben Bulşah Keçici, Ankara'da yaşayan bir Veri Bilimci ve Bilgisayar Mühendisiyim. Yapay zeka destekli analitik ve otomasyon sistemleri geliştirmede 9 yılı aşkın deneyime sahibim. Karmaşık verileri makine öğrenimi, bilgisayarlı görü ve akıllı süreç otomasyonu yoluyla eyleme dönüştürülebilir içgörülere dönüştürme konusunda uzmanlaştım. İstatistiksel uzmanlık ve tam yığın geliştirme geçmişimi birleştirerek, veri işleme boru hatlarından üretim hazır dağıtıma kadar uçtan uca yapay zeka çözümleri tasarlayabiliyorum. Çalışmalarım, altyapı analitiği, otomasyon ve karar destek sistemleri genelinde gerçek dünya problem çözme üzerine odaklanıyor. Python, SQL ve modern DevOps araçları (Docker, Kubernetes, Git) kullanarak araştırma ile uygulama arasındaki boşluğu kapatıyor, ölçeklenebilir ve ölçülebilir sonuçlar sunuyorum. İnovasyon ve sınır ötesi işbirliğine tutkulu olarak, veri odaklı karar vermenin geleceğini şekillendiren akıllı sistemler oluşturmak için Almanya ve Avrupa genelinde fırsatlara açığım.",
+    "bio": "Ben Bulşah Keçici. Ankara'da yaşıyorum ve hem Veri Bilimi hem de Bilgisayar Mühendisliği tarafında üretmeyi seviyorum. Yaklaşık 9 yıldır yapay zekâ ve veri odaklı sistemler geliştirirken beni en çok motive eden şey, \"veri\" denen karmaşık parçaları bir araya getirip insanların işini gerçekten kolaylaştıran, sahada karşılığı olan çözümlere dönüştürmek. Bir problemle karşılaştığımda önce onu sakin sakin anlamaya çalışırım: veri nereden geliyor, ne eksik, ne yanıltıcı, kim hangi kararı vermeye çalışıyor… Sonra bu tabloyu netleştirip çözümü adım adım inşa ederim.\n\nÇalışmalarım genellikle makine öğrenmesi, bilgisayarlı görü ve akıllı süreç otomasyonu etrafında şekilleniyor. Sadece model kurup bırakmayı sevmiyorum; o modelin doğru veriyle beslenmesini, doğru ölçülmesini, güvenilir şekilde çalışmasını ve sürdürülebilir olmasını önemsiyorum. Bu yüzden veri hazırlamadan modellemeye, API'lerle servisleştirmeden izleme ve dağıtıma kadar işin \"uçtan uca\" kısmını sahiplenmeyi doğal buluyorum. İstatistiksel bakış açım, bazen en zor görünen şeyleri bile daha anlaşılır hale getiriyor; yazılım geliştirme tarafım ise bu anlayışı gerçek bir ürüne dönüştürmemi sağlıyor.\n\nGünlük işlerimde Python ve SQL'i çok kullanıyorum; Docker, Kubernetes ve Git gibi araçlar da süreçlerimin doğal bir parçası. Ama benim için teknoloji, amaç değil; iyi tasarlanmış bir çözümü hayata geçirebilmenin aracı. İşbirliğini seviyorum; soru sormayı, geri bildirim almayı ve beraber daha iyisini üretmeyi değerli buluyorum. Yeni şeyler öğrenmek beni canlı tutuyor ve sınır ötesi ekiplerle çalışmak fikri heyecan veriyor. Bu yüzden Almanya ve Avrupa genelinde; gerçek problemlere dokunan, insanlara fayda üreten, uzun soluklu projelerde yer almaya açığım.",
     "highlights": {
       "title": "Kariyer Öne Çıkanlar",
       "items": [
-        "9+ yıllık veri bilimi ve yazılım mühendisliği deneyimi",
-        "%95+ doğruluk oranıyla yapay zeka sistemleri geliştirdim",
-        "Çok platformlu sağlık yönetim sistemleri oluşturdum",
-        "Python, Makine Öğrenimi ve Full-Stack geliştirmede uzmanım"
+        "9+ yıldır Veri Bilimi odaklı çalışıyor, problemi tanımdan üretime alma ve izlemeye kadar uçtan uca yönetiyorum.",
+        "Üretimde çalışan, ölçülebilir yapay zekâ ve otomasyon sistemleriyle karar süreçlerine doğrudan katkı sağlıyorum.",
+        "Doğru metriklerle doğrulanmış yüksek performanslı modeller geliştirerek sahada güvenilir sonuçlar üretiyorum.",
+        "Bilgisayarlı görü projelerinde tespit–takip–sınıflandırma çözümlerini gerçek zamanlı akışlar ve otomasyonla birleştiriyorum.",
+        "Python ve SQL ile veri akışını kuruyor, Docker/Kubernetes/Git ile dağıtım ve operasyonu sürdürülebilir hale getiriyorum.",
+        "Veri bilimi çıktısını raporda bırakmadan, web/masaüstü ürünlere dönüştüren full-stack çözümler geliştiriyorum.",
+        "Rol bazlı klinik yönetimi, randevu–tedavi–finans–raporlama akışlarını kapsayan çok katmanlı sağlık sistemleri tasarladım."
       ]
     },
     "location": "Ankara, Türkiye",

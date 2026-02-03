@@ -15,9 +15,14 @@ export default function AboutSection() {
 
         <div className="max-w-4xl mx-auto">
           <div className="prose prose-lg dark:prose-invert max-w-none mb-8">
-            <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-              {t("bio")}
-            </p>
+            {t("bio")
+              .split("\n\n")
+              .filter((para) => para.trim())
+              .map((para, index) => (
+                <p key={index} className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-4">
+                  {para.trim()}
+                </p>
+              ))}
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 mb-8">

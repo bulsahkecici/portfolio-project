@@ -17,14 +17,17 @@
   },
   "about": {
     "title": "Über mich",
-    "bio": "Ich bin Bulşah Keçici, ein Data Scientist und Informatikingenieur aus Ankara, Türkei, mit über 9 Jahren Erfahrung in der Entwicklung von KI-gestützten analytischen und Automatisierungssystemen. Ich spezialisiere mich darauf, komplexe Daten durch Machine Learning, Computer Vision und intelligente Prozessautomatisierung in umsetzbare Erkenntnisse zu verwandeln. Mein Hintergrund kombiniert statistische Expertise und Full-Stack-Entwicklung, was mir ermöglicht, End-to-End-KI-Lösungen zu entwerfen — von Datenverarbeitungspipelines bis hin zu produktionsreifen Bereitstellungen. Meine Arbeit konzentriert sich auf die Lösung realer Probleme in den Bereichen Infrastrukturanalytik, Automatisierung und Entscheidungsunterstützungssysteme. Ich überbrücke die Lücke zwischen Forschung und Implementierung und nutze Python, SQL und moderne DevOps-Tools (Docker, Kubernetes, Git), um skalierbare, messbare Ergebnisse zu liefern. Leidenschaftlich für Innovation und grenzüberschreitende Zusammenarbeit bin ich offen für Möglichkeiten in Deutschland und in ganz Europa, um intelligente Systeme zu entwickeln, die die Zukunft datengestützter Entscheidungsfindung prägen.",
+    "bio": "Ich bin Bulşah Keçici, lebe in Ankara und arbeite gerne an der Schnittstelle von Data Science und Softwareentwicklung. Seit über neun Jahren entwickle ich KI-gestützte Systeme – und was mich dabei wirklich antreibt, ist der Moment, in dem aus komplexen Daten etwas entsteht, das Menschen im Alltag oder im Arbeitsprozess tatsächlich weiterhilft. Wenn ich an ein neues Thema herangehe, starte ich am liebsten ruhig und strukturiert: Ich möchte zuerst verstehen, was das eigentliche Problem ist, woher die Daten kommen, was fehlt, was verfälscht sein könnte und welche Entscheidung am Ende unterstützt werden soll. Danach baue ich die Lösung Schritt für Schritt auf.\n\nInhaltlich bewege ich mich häufig in den Bereichen Machine Learning, Computer Vision und intelligente Automatisierung. Mir geht es nicht nur darum, dass ein Modell \"irgendwie funktioniert\", sondern dass das Gesamtsystem verlässlich ist, nachvollziehbar bleibt und langfristig betrieben werden kann. Deshalb übernehme ich gern die Verantwortung für den gesamten Prozess – von Datenpipelines und Modelltraining über Bereitstellung bis hin zu Monitoring und kontinuierlicher Verbesserung. Meine statistische Erfahrung hilft mir, sauber und kritisch zu arbeiten; mein Engineering-Background sorgt dafür, dass aus Ideen echte, nutzbare Produkte werden.\n\nIch arbeite täglich viel mit Python und SQL und nutze Docker, Kubernetes und Git ganz selbstverständlich im Entwicklungsalltag. Für mich ist Technologie jedoch kein Selbstzweck – sie ist das Mittel, um gute Lösungen zuverlässig umzusetzen. Ich schätze Zusammenarbeit, offene Kommunikation und das gemeinsame Lernen sehr und arbeite am liebsten in Teams, in denen Verantwortung und Neugier zusammenkommen. Besonders reizt mich internationale Zusammenarbeit. Deshalb bin ich offen für Möglichkeiten in Deutschland und ganz Europa, um intelligente Systeme zu entwickeln, die datengetriebene Entscheidungen greifbarer, praktischer und wirkungsvoller machen.",
     "highlights": {
       "title": "Karriere-Highlights",
       "items": [
-        "9+ Jahre Erfahrung in Data Science und Software Engineering",
-        "KI-Systeme mit 95%+ Genauigkeit entwickelt",
-        "Multi-Plattform-Gesundheitsmanagementsysteme erstellt",
-        "Expertise in Python, Machine Learning und Full-Stack-Entwicklung"
+        "Seit über 9 Jahren begleite ich Data-Science-Projekte End-to-End – von der Problemdefinition bis zur Produktivsetzung und zum Monitoring.",
+        "Ich liefere messbare KI- und Automatisierungssysteme, die Entscheidungsprozesse spürbar verbessern.",
+        "Ich entwickle leistungsstarke Modelle, die mit passenden Metriken validiert und im Einsatz verlässlich sind.",
+        "Im Bereich Computer Vision verbinde ich Erkennung, Tracking und Klassifikation mit Echtzeit-Pipelines und Automatisierung.",
+        "Ich baue Datenpipelines mit Python und SQL und mache Deployment sowie Betrieb mit Docker, Kubernetes und Git nachhaltig.",
+        "Ich überführe Data-Science-Ergebnisse in nutzbare Web-/Desktop-Produkte durch Full-Stack-Umsetzung.",
+        "Ich habe mehrschichtige Gesundheitsmanagement-Systeme entworfen, inklusive Rollenrechten, Terminplanung, Behandlungsplanung, Finanzen und Reporting."
       ]
     },
     "location": "Ankara, Türkei",

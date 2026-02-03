@@ -1,5 +1,6 @@
 "use client";
 import { usePathname, useRouter } from "next/navigation";
+import type { Route } from "next";
 import Cookies from "js-cookie";
 
 const locales = [
@@ -18,7 +19,7 @@ export default function LanguageSwitch(){
     Cookies.set("locale", loc, { expires: 365 });
     parts[1] = loc;
     const nextPath = parts.join("/") || "/";
-    router.push(nextPath);
+    router.push(nextPath as Route);
   }
 
   return (

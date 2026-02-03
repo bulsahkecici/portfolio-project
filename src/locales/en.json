@@ -17,14 +17,17 @@
   },
   "about": {
     "title": "About Me",
-    "bio": "I'm Bulşah Keçici, a Data Scientist and Computer Engineer based in Ankara, Turkey, with over 9 years of experience in developing AI-driven analytical and automation systems. I specialize in transforming complex data into actionable insights through machine learning, computer vision, and intelligent process automation. My background combines statistical expertise and full-stack development, allowing me to design end-to-end AI solutions — from data processing pipelines to production-ready deployment. My work focuses on real-world problem-solving across infrastructure analytics, automation, and decision-support systems. I bridge the gap between research and implementation, using Python, SQL, and modern DevOps tools (Docker, Kubernetes, Git) to deliver scalable, measurable results. Passionate about innovation and cross-border collaboration, I'm open to opportunities in Germany and across Europe to build intelligent systems that shape the future of data-driven decision making.",
+    "bio": "I'm Bulşah Keçici, based in Ankara, and I genuinely enjoy building things at the intersection of data science and software engineering. For over nine years, I've been working on AI-driven systems, and what keeps me excited is seeing complex data turn into something that actually helps people—something practical, usable, and meaningful in real life. When I face a new challenge, I like to slow down first: understand what the problem really is, where the data comes from, what's missing or misleading, and what decision someone is trying to make. Once the picture is clear, I build the solution step by step.\n\nMy work often revolves around machine learning, computer vision, and intelligent automation. I don't enjoy stopping at \"a model that works on my machine.\" I care about whether the system can be trusted, measured, maintained, and improved over time. That's why I naturally take ownership of the full journey—from data pipelines and feature building to model training, deployment, monitoring, and iteration. My statistical background helps me stay grounded and avoid shortcuts, while my engineering mindset helps me turn ideas into systems people can rely on.\n\nI work mostly with Python and SQL, and I'm comfortable using Docker, Kubernetes, and Git as part of everyday delivery. But for me, technology is never the goal—it's the tool that helps bring a thoughtful solution to life. I value collaboration, honest communication, and learning from others, and I enjoy working with teams where curiosity and responsibility go together. I'm especially motivated by opportunities that involve cross-border teamwork. That's why I'm open to roles across Germany and Europe, where I can help build intelligent systems that make data-driven decisions feel more human, more practical, and more impactful.",
     "highlights": {
       "title": "Career Highlights",
       "items": [
-        "9+ years of experience in data science and software engineering",
-        "Built AI-powered systems with 95%+ accuracy",
-        "Developed multi-platform healthcare management systems",
-        "Expertise in Python, Machine Learning, and Full-Stack Development"
+        "For 9+ years, I've led data science work end-to-end—from problem framing to production deployment and monitoring.",
+        "I deliver measurable AI and automation systems that directly improve real decision-making workflows.",
+        "I build high-performing models validated with the right metrics and proven reliable in real-world use.",
+        "In computer vision, I combine detection, tracking, and classification with real-time pipelines and automation.",
+        "I build data pipelines with Python and SQL, and make deployment and operations sustainable with Docker, Kubernetes, and Git.",
+        "I turn data science outputs into usable web/desktop products through full-stack implementation.",
+        "I designed multi-layer healthcare management systems covering role-based access, scheduling, treatment planning, finance, and reporting."
       ]
     },
     "location": "Ankara, Turkey",

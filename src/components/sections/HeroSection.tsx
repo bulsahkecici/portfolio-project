@@ -50,9 +50,14 @@ export default function HeroSection() {
             <div className="relative w-72 h-72 md:w-96 md:h-96">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full blur-3xl opacity-20 animate-pulse"></div>
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-2xl">
-                <div className="w-full h-full bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center text-white text-8xl font-bold">
-                  BK
-                </div>
+                <Image
+                  src="/images/photo1.jpg"
+                  alt="Bulşah Keçici"
+                  fill
+                  className="object-cover rounded-full"
+                  priority
+                  unoptimized
+                />
               </div>
             </div>
           </div>
