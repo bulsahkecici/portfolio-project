@@ -41,8 +41,11 @@ export default function ContactSection() {
         body: JSON.stringify(data),
       });
 
+      const result = await response.json();
+
       if (!response.ok) {
-        throw new Error('Failed to send message');
+        console.error('API error:', result);
+        throw new Error(result.error || 'Failed to send message');
       }
 
       setSubmitStatus("success");

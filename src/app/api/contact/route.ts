@@ -77,9 +77,13 @@ export async function POST(request: NextRequest) {
     const sanitizedMessage = escapeHtml(validatedData.message).replace(/\n/g, '<br>');
 
     // E-posta gönder
+    // Resend'de domain doğrulanmamışsa onboarding@resend.dev kullan
+    const fromEmail = process.env.RESEND_FROM_EMAIL || 'Portfolio Contact <onboarding@resend.dev>';
+    const toEmail = process.env.CONTACT_EMAIL || 'contact@bulsahkecici.com';
+    
     const { data, error } = await resend.emails.send({
-      from: process.env.RESEND_FROM_EMAIL || 'Portfolio Contact <contact@bulsahkecici.com>', // Resend'de doğrulanmış domain kullanmalısınız
-      to: [process.env.CONTACT_EMAIL || 'contact@bulsahkecici.com'],
+      from: fromEmail,
+      to: [toEmail],
       replyTo: validatedData.email,
       subject: `Portfolio Contact: ${sanitizedName}`,
       html: `
@@ -100,8 +104,15 @@ export async function POST(request: NextRequest) {
 
     if (error) {
       console.error('Resend error:', error);
+      // Resend hata detaylarını logla
+      const errorMessage = error instanceof Error ? error.message : JSON.stringify(error);
+      console.error('Resend error details:', errorMessage);
+      
       return NextResponse.json(
-        { error: 'Failed to send email' },
+        { 
+          error: 'Failed to send email',
+          details: process.env.NODE_ENV === 'development' ? errorMessage : undefined
+        },
         { status: 500 }
       );
     }
@@ -119,8 +130,12 @@ export async function POST(request: NextRequest) {
     }
 
     console.error('API error:', error);
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
     return NextResponse.json(
-      { error: 'Internal server error' },
+      { 
+        error: 'Internal server error',
+        details: process.env.NODE_ENV === 'development' ? errorMessage : undefined
+      },
       { status: 500 }
     );
   }
