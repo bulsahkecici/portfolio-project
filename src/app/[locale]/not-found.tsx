@@ -1,10 +1,15 @@
 "use client";
 import Link from "next/link";
+import type { Route } from "next";
+import { usePathname } from "next/navigation";
 import { Home, ArrowLeft } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 export default function NotFound() {
   const t = useTranslations("notFound");
+  const pathname = usePathname();
+  const [_, locale = "en"] = (pathname || "/en").split("/");
+  const homePath = `/${locale}` as Route;
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center px-4">
@@ -18,7 +23,7 @@ export default function NotFound() {
         </p>
         <div className="flex gap-4 justify-center">
           <Link
-            href="/"
+            href={homePath}
             className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
           >
             <Home size={20} />

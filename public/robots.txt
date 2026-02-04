@@ -1,9 +1,9 @@
-# https://www.robotstxt.org/robotstxt.html
+# *
 User-agent: *
 Allow: /
 
-# Disallow API routes
-Disallow: /api/
+# Host
+Host: https://bulsahkecici.com
 
-# Sitemap
+# Sitemaps
 Sitemap: https://bulsahkecici.com/sitemap.xml
