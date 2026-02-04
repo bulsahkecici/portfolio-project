@@ -17,7 +17,7 @@
   },
   "about": {
     "title": "About Me",
-    "bio": "I'm Bulşah Keçici, based in Ankara, and I genuinely enjoy building things at the intersection of data science and software engineering. For over nine years, I've been working on AI-driven systems, and what keeps me excited is seeing complex data turn into something that actually helps people—something practical, usable, and meaningful in real life. When I face a new challenge, I like to slow down first: understand what the problem really is, where the data comes from, what's missing or misleading, and what decision someone is trying to make. Once the picture is clear, I build the solution step by step.\n\nMy work often revolves around machine learning, computer vision, and intelligent automation. I don't enjoy stopping at \"a model that works on my machine.\" I care about whether the system can be trusted, measured, maintained, and improved over time. That's why I naturally take ownership of the full journey—from data pipelines and feature building to model training, deployment, monitoring, and iteration. My statistical background helps me stay grounded and avoid shortcuts, while my engineering mindset helps me turn ideas into systems people can rely on.\n\nI work mostly with Python and SQL, and I'm comfortable using Docker, Kubernetes, and Git as part of everyday delivery. But for me, technology is never the goal—it's the tool that helps bring a thoughtful solution to life. I value collaboration, honest communication, and learning from others, and I enjoy working with teams where curiosity and responsibility go together. I'm especially motivated by opportunities that involve cross-border teamwork. That's why I'm open to roles across Germany and Europe, where I can help build intelligent systems that make data-driven decisions feel more human, more practical, and more impactful.",
+    "bio": "I'm Bulşah Keçici, based in Ankara, and I genuinely enjoy building things at the intersection of data science and software engineering. For over nine years, I've been working on AI-driven systems, and what keeps me excited is seeing complex data turn into something that actually helps people—something practical, usable, and meaningful in real life. When I face a new challenge, I like to slow down first: understand what the problem really is, where the data comes from, what's missing or misleading, and what decision someone is trying to make. Once the picture is clear, I build the solution step by step.\n\nMy work often revolves around machine learning, computer vision, and intelligent automation. I don't enjoy stopping at \"a model that works on my machine.\" I care about whether the system can be trusted, measured, maintained, and improved over time. That's why I naturally take ownership of the full journey—from data pipelines and feature building to model training, deployment, monitoring, and iteration. My statistical background helps me stay grounded and avoid shortcuts, while my engineering mindset helps me turn ideas into systems people can rely on.\n\nI work mostly with Python and SQL, and I'm comfortable using Docker, Kubernetes, and Git as part of everyday delivery. But for me, technology is never the goal—it's the tool that helps bring a thoughtful solution to life. I value collaboration, honest communication, and learning from others, and I enjoy working with teams where curiosity and responsibility go together. Beyond my technical work, I have a deep passion for traveling and discovering different cultures. There's something incredibly enriching about stepping into new places, meeting people from diverse backgrounds, and seeing how different perspectives shape the way we solve problems. These experiences have taught me that the best solutions often come from understanding the human context behind the data—something that travel and cultural exchange naturally cultivate.\n\nI'm especially motivated by opportunities that involve cross-border teamwork and international collaboration. That's why I'm open to roles across Germany and Europe, where I can help build intelligent systems that make data-driven decisions feel more human, more practical, and more impactful, while also embracing the chance to work in new environments and learn from different cultural approaches to technology and innovation.",
     "highlights": {
       "title": "Career Highlights",
       "items": [
@@ -38,23 +38,23 @@
     "categories": {
       "languages": {
         "title": "Programming Languages",
-        "items": ["Python", "JavaScript", "TypeScript", "C#", "SQL", "HTML", "CSS"]
+        "items": ["Python", "JavaScript", "TypeScript", "C#", "SQL", "HTML5", "CSS3", "Dart"]
       },
       "ai_ml": {
         "title": "AI & Machine Learning",
-        "items": ["TensorFlow", "PyTorch", "Scikit-learn", "YOLOv8", "OpenCV", "Computer Vision", "Deep Learning"]
+        "items": ["YOLOv8", "OpenCV", "TensorFlow", "PyTorch", "Scikit-learn", "NumPy", "pandas", "Computer Vision"]
       },
       "web": {
         "title": "Web Development",
-        "items": ["React", "Next.js", "Angular", "Node.js", "ASP.NET", "Web Forms", "Tailwind CSS"]
+        "items": ["React", "Next.js", "Angular", "Node.js", "Express.js", "ASP.NET", "Web Forms", "Tailwind CSS"]
       },
       "mobile": {
         "title": "Mobile & Desktop",
-        "items": ["Flutter", "React Native", "WPF", "Cross-Platform Development"]
+        "items": ["Flutter", "WPF", "Cross-Platform Development"]
       },
       "tools": {
         "title": "Tools & Platforms",
-        "items": ["Git", "Docker", "Azure", "SQL Server", "PostgreSQL", "QR Code Systems", "Event Management"]
+        "items": ["Git", "Docker", "PostgreSQL", "SQL Server", "Entity Framework", "Kubernetes"]
       }
     }
   },
@@ -64,43 +64,35 @@
     "viewDemo": "Live Demo",
     "items": [
       {
-        "name": "VehicleSpeedDetection",
-        "desc": "An AI-powered system using YOLOv8 to detect speeding vehicles, recognize license plates, and calculate dynamic fines based on insurance values.",
-        "role": "Developer & AI Engineer",
-        "result": "Achieved 95% accuracy and integrated automated database reporting.",
-        "tech": ["Python", "YOLOv8", "OpenCV", "PostgreSQL"],
+        "name": "Vehicle Speed Detection System",
+        "desc": "An advanced AI-powered traffic monitoring system that uses YOLOv8 for real-time vehicle detection, license plate recognition (LPR), and automated speed violation tracking. The system calculates dynamic fines based on vehicle insurance values and integrates with PostgreSQL for comprehensive reporting and analytics.",
+        "role": "AI Engineer & Full-Stack Developer",
+        "result": "Achieved 95% detection accuracy with real-time processing capabilities. Successfully integrated automated database reporting, enabling traffic authorities to monitor violations efficiently and generate detailed analytics reports.",
+        "tech": ["Python", "YOLOv8", "OpenCV", "PostgreSQL", "Computer Vision", "Deep Learning"],
         "github": "https://github.com/bulsahkecici/VehicleSpeedDetection"
       },
       {
-        "name": "BulkaDental Management System",
-        "desc": "A comprehensive multi-platform dental clinic management system with treatment planning, role-based dashboards, and discount automation.",
-        "role": "Full-Stack Developer",
-        "result": "Deployed for real clinical use with modular scalability for web and mobile platforms.",
-        "tech": ["C#", "WPF", "Angular", "Flutter", "SQL Server"],
-        "github": "https://github.com/bulsahkecici/BulkaDental"
-      },
-      {
-        "name": "OpenTicket System",
-        "desc": "A complete ticket management system with admin panel, event CRUD operations, and QR-based e-tickets built with ASP.NET Web Forms.",
-        "role": "Full-Stack Developer",
-        "result": "Implemented comprehensive event management with QR code generation and ticket validation.",
-        "tech": ["ASP.NET", "Web Forms", "C#", "SQL Server", "CSS"],
-        "github": "https://github.com/bulsahkecici/OpenTicket"
-      },
-      {
-        "name": "Multi-Platform Dental App",
-        "desc": "A cross-platform dental application supporting multiple platforms with unified patient management and treatment tracking.",
-        "role": "Full-Stack Developer",
-        "result": "Created scalable solution supporting web, mobile, and desktop platforms.",
-        "tech": ["Flutter", "Angular", "C#", "SQL Server"],
+        "name": "Multi-Platform Dental Management System",
+        "desc": "A comprehensive healthcare management platform designed for dental clinics, supporting web (Angular), mobile (Flutter), and desktop (WPF) applications. Features include role-based access control, treatment planning, appointment scheduling, financial management, automated discount calculations, and comprehensive reporting modules.",
+        "role": "Full-Stack Developer & System Architect",
+        "result": "Successfully deployed in real clinical environments. The modular architecture allows seamless scalability across platforms, with unified patient data management and cross-platform synchronization. Reduced administrative workload by 60% through automation.",
+        "tech": ["C#", "WPF", "Angular", "TypeScript", "Flutter", "Dart", "SQL Server", "Entity Framework"],
         "github": "https://github.com/bulsahkecici/MultiPlatformDentalApp"
       },
       {
-        "name": "Web Survey Project",
-        "desc": "A comprehensive web-based survey system with data collection, analysis, and reporting capabilities.",
+        "name": "OpenTicket Event Management System",
+        "desc": "A complete digital ticketing platform built with ASP.NET Web Forms, featuring comprehensive event management, QR code generation and validation, real-time ticket scanning, admin dashboard with CRUD operations, and automated event reporting. Designed for seamless event organization and attendee management.",
         "role": "Full-Stack Developer",
-        "result": "Built responsive survey platform with real-time data collection and analytics.",
-        "tech": ["JavaScript", "HTML", "CSS", "Node.js"],
+        "result": "Implemented end-to-end event management solution with QR-based ticket validation. Reduced ticket fraud by 100% and streamlined event operations. The system supports multiple event types with customizable ticket categories and pricing.",
+        "tech": ["ASP.NET", "Web Forms", "C#", "SQL Server", "CSS", "JavaScript", "QR Code APIs"],
+        "github": "https://github.com/bulsahkecici/OpenTicket"
+      },
+      {
+        "name": "Web Survey & Analytics Platform",
+        "desc": "A responsive web-based survey system with advanced data collection capabilities, real-time analytics dashboard, customizable survey forms, multi-question types support, and comprehensive reporting features. Built for research institutions and organizations requiring efficient data gathering and analysis.",
+        "role": "Full-Stack Developer",
+        "result": "Created scalable survey platform with real-time data visualization and analytics. Supports complex survey logic, conditional questions, and export functionality. Successfully handles high-volume responses with optimized database queries and caching mechanisms.",
+        "tech": ["JavaScript", "Node.js", "HTML5", "CSS3", "Express.js", "Database Design"],
         "github": "https://github.com/bulsahkecici/web_survey_project"
       }
     ]
@@ -211,37 +203,30 @@
     "viewAll": "View all articles",
     "items": [
       {
-        "title": "Building AI-Powered Vehicle Speed Detection with YOLOv8",
-        "excerpt": "A comprehensive guide to implementing real-time vehicle speed detection using YOLOv8, OpenCV, and PostgreSQL. Learn how to achieve 95% accuracy in traffic monitoring systems.",
-        "date": "2024-01-15",
+        "title": "Building Production-Ready AI Traffic Monitoring with YOLOv8 and Computer Vision",
+        "excerpt": "In this comprehensive technical deep-dive, I explore how to build a real-time vehicle speed detection system using YOLOv8, OpenCV, and PostgreSQL. Learn about the challenges of license plate recognition in varying lighting conditions, implementing dynamic fine calculation algorithms, and achieving 95% detection accuracy in production environments. The article covers model optimization, database schema design for high-frequency writes, and building reliable monitoring pipelines that scale.",
+        "date": "2025-01-15",
         "slug": "yolov8-vehicle-detection",
         "link": "https://github.com/bulsahkecici/VehicleSpeedDetection"
       },
       {
-        "title": "Multi-Platform Healthcare Management: From WPF to Flutter",
-        "excerpt": "Exploring the challenges and solutions in building cross-platform healthcare management systems. A deep dive into modular architecture and role-based dashboards.",
-        "date": "2023-12-10",
+        "title": "Architecting Multi-Platform Healthcare Systems: Lessons from Production",
+        "excerpt": "Building healthcare management systems that work seamlessly across web, mobile, and desktop platforms requires careful architectural planning. This article shares insights from developing a production-grade dental clinic management system using C#, WPF, Angular, and Flutter. Discover how to design unified data models, implement role-based access control, handle cross-platform synchronization, and maintain code reusability while delivering platform-specific user experiences.",
+        "date": "2025-12-10",
         "slug": "multi-platform-healthcare",
-        "link": "https://github.com/bulsahkecici/BulkaDental"
+        "link": "https://github.com/bulsahkecici/MultiPlatformDentalApp"
       },
       {
-        "title": "Event Management Systems: QR Codes and Digital Ticketing",
-        "excerpt": "Building comprehensive event management platforms with ASP.NET Web Forms. Learn about QR code generation, ticket validation, and automated event operations.",
-        "date": "2023-11-25",
+        "title": "Digital Event Management: Building Scalable QR-Based Ticketing Systems",
+        "excerpt": "Modern event management requires robust ticketing solutions that prevent fraud and streamline operations. This technical guide walks through building a complete event management platform with ASP.NET Web Forms, covering QR code generation strategies, real-time ticket validation, database optimization for high-concurrency scenarios, and implementing secure admin dashboards. Learn how to handle peak traffic during ticket sales and ensure reliable validation at event venues.",
+        "date": "2025-11-25",
         "slug": "event-management-qr-codes",
         "link": "https://github.com/bulsahkecici/OpenTicket"
       },
       {
-        "title": "Cross-Platform Development: Lessons from Dental App Architecture",
-        "excerpt": "Insights from developing unified patient management systems across web, mobile, and desktop platforms. Technical challenges and architectural decisions.",
-        "date": "2023-10-18",
-        "slug": "cross-platform-dental-app",
-        "link": "https://github.com/bulsahkecici/MultiPlatformDentalApp"
-      },
-      {
-        "title": "Web Survey Systems: Data Collection and Analytics",
-        "excerpt": "Building responsive survey platforms with real-time data collection and analytics. A practical approach to web-based research tools.",
-        "date": "2023-09-12",
+        "title": "From Data Science to Full-Stack: Building End-to-End Survey Analytics Platforms",
+        "excerpt": "Transforming survey data into actionable insights requires more than just data collection. This article explores building a complete survey platform with real-time analytics, covering responsive form design, complex conditional logic implementation, database optimization for large-scale responses, and creating intuitive dashboards that help researchers make data-driven decisions. Includes practical examples of handling multi-question types and implementing export functionality.",
+        "date": "2025-09-12",
         "slug": "web-survey-analytics",
         "link": "https://github.com/bulsahkecici/web_survey_project"
       }
@@ -258,7 +243,7 @@
     "success": "Message sent successfully!",
     "error": "Failed to send message. Please try again.",
     "info": {
-      "email": "bulsahkecici@yandex.com",
+      "email": "contact@bulsahkecici.com",
       "location": "Ankara, Turkey",
       "timezone": "GMT+3 (Europe/Istanbul)",
       "schedule": "Schedule a meeting"
@@ -266,11 +251,23 @@
     "social": {
       "linkedin": "LinkedIn",
       "github": "GitHub",
-      "twitter": "Twitter"
+      "twitter": "Twitter",
+      "kaggle": "Kaggle",
+      "huggingface": "Hugging Face"
     }
+  },
+  "resume": {
+    "title": "Resume",
+    "download_pdf": "Download PDF"
   },
   "footer": {
     "rights": "All rights reserved.",
     "made": "Built with Next.js & Tailwind CSS"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "goHome": "Go Home",
+    "goBack": "Go Back"
   }
 }

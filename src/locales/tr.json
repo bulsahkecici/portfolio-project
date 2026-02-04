@@ -17,7 +17,7 @@
   },
   "about": {
     "title": "Hakkımda",
-    "bio": "Ben Bulşah Keçici. Ankara'da yaşıyorum ve hem Veri Bilimi hem de Bilgisayar Mühendisliği tarafında üretmeyi seviyorum. Yaklaşık 9 yıldır yapay zekâ ve veri odaklı sistemler geliştirirken beni en çok motive eden şey, \"veri\" denen karmaşık parçaları bir araya getirip insanların işini gerçekten kolaylaştıran, sahada karşılığı olan çözümlere dönüştürmek. Bir problemle karşılaştığımda önce onu sakin sakin anlamaya çalışırım: veri nereden geliyor, ne eksik, ne yanıltıcı, kim hangi kararı vermeye çalışıyor… Sonra bu tabloyu netleştirip çözümü adım adım inşa ederim.\n\nÇalışmalarım genellikle makine öğrenmesi, bilgisayarlı görü ve akıllı süreç otomasyonu etrafında şekilleniyor. Sadece model kurup bırakmayı sevmiyorum; o modelin doğru veriyle beslenmesini, doğru ölçülmesini, güvenilir şekilde çalışmasını ve sürdürülebilir olmasını önemsiyorum. Bu yüzden veri hazırlamadan modellemeye, API'lerle servisleştirmeden izleme ve dağıtıma kadar işin \"uçtan uca\" kısmını sahiplenmeyi doğal buluyorum. İstatistiksel bakış açım, bazen en zor görünen şeyleri bile daha anlaşılır hale getiriyor; yazılım geliştirme tarafım ise bu anlayışı gerçek bir ürüne dönüştürmemi sağlıyor.\n\nGünlük işlerimde Python ve SQL'i çok kullanıyorum; Docker, Kubernetes ve Git gibi araçlar da süreçlerimin doğal bir parçası. Ama benim için teknoloji, amaç değil; iyi tasarlanmış bir çözümü hayata geçirebilmenin aracı. İşbirliğini seviyorum; soru sormayı, geri bildirim almayı ve beraber daha iyisini üretmeyi değerli buluyorum. Yeni şeyler öğrenmek beni canlı tutuyor ve sınır ötesi ekiplerle çalışmak fikri heyecan veriyor. Bu yüzden Almanya ve Avrupa genelinde; gerçek problemlere dokunan, insanlara fayda üreten, uzun soluklu projelerde yer almaya açığım.",
+    "bio": "Ben Bulşah Keçici. Ankara'da yaşıyorum ve hem Veri Bilimi hem de Bilgisayar Mühendisliği tarafında üretmeyi seviyorum. Yaklaşık 9 yıldır yapay zekâ ve veri odaklı sistemler geliştirirken beni en çok motive eden şey, \"veri\" denen karmaşık parçaları bir araya getirip insanların işini gerçekten kolaylaştıran, sahada karşılığı olan çözümlere dönüştürmek. Bir problemle karşılaştığımda önce onu sakin sakin anlamaya çalışırım: veri nereden geliyor, ne eksik, ne yanıltıcı, kim hangi kararı vermeye çalışıyor… Sonra bu tabloyu netleştirip çözümü adım adım inşa ederim.\n\nÇalışmalarım genellikle makine öğrenmesi, bilgisayarlı görü ve akıllı süreç otomasyonu etrafında şekilleniyor. Sadece model kurup bırakmayı sevmiyorum; o modelin doğru veriyle beslenmesini, doğru ölçülmesini, güvenilir şekilde çalışmasını ve sürdürülebilir olmasını önemsiyorum. Bu yüzden veri hazırlamadan modellemeye, API'lerle servisleştirmeden izleme ve dağıtıma kadar işin \"uçtan uca\" kısmını sahiplenmeyi doğal buluyorum. İstatistiksel bakış açım, bazen en zor görünen şeyleri bile daha anlaşılır hale getiriyor; yazılım geliştirme tarafım ise bu anlayışı gerçek bir ürüne dönüştürmemi sağlıyor.\n\nGünlük işlerimde Python ve SQL'i çok kullanıyorum; Docker, Kubernetes ve Git gibi araçlar da süreçlerimin doğal bir parçası. Ama benim için teknoloji, amaç değil; iyi tasarlanmış bir çözümü hayata geçirebilmenin aracı. İşbirliğini seviyorum; soru sormayı, geri bildirim almayı ve beraber daha iyisini üretmeyi değerli buluyorum. Teknik çalışmalarımın yanı sıra, seyahat etmeyi ve farklı kültürleri tanımayı çok seviyorum. Yeni yerler keşfetmek, farklı geçmişlerden insanlarla tanışmak ve çeşitli bakış açılarının problem çözme şeklimizi nasıl şekillendirdiğini görmek beni derinden zenginleştiriyor. Bu deneyimler bana öğretti ki, en iyi çözümler genellikle verinin arkasındaki insani bağlamı anlamaktan geliyor—seyahat ve kültürel alışverişin doğal olarak beslediği bir şey bu.\n\nYeni şeyler öğrenmek beni canlı tutuyor ve sınır ötesi ekiplerle çalışmak fikri heyecan veriyor. Bu yüzden Almanya ve Avrupa genelinde; gerçek problemlere dokunan, insanlara fayda üreten, uzun soluklu projelerde yer almaya açığım. Aynı zamanda yeni ortamlarda çalışma ve teknoloji ile inovasyona farklı kültürel yaklaşımlardan öğrenme fırsatını da memnuniyetle karşılıyorum.",
     "highlights": {
       "title": "Kariyer Öne Çıkanlar",
       "items": [
@@ -38,23 +38,23 @@
     "categories": {
       "languages": {
         "title": "Programlama Dilleri",
-        "items": ["Python", "JavaScript", "TypeScript", "C#", "SQL", "HTML", "CSS"]
+        "items": ["Python", "JavaScript", "TypeScript", "C#", "SQL", "HTML5", "CSS3", "Dart"]
       },
       "ai_ml": {
         "title": "Yapay Zeka & Makine Öğrenimi",
-        "items": ["TensorFlow", "PyTorch", "Scikit-learn", "YOLOv8", "OpenCV", "Bilgisayarlı Görü", "Derin Öğrenme"]
+        "items": ["YOLOv8", "OpenCV", "TensorFlow", "PyTorch", "Scikit-learn", "NumPy", "pandas", "Bilgisayarlı Görü"]
       },
       "web": {
         "title": "Web Geliştirme",
-        "items": ["React", "Next.js", "Angular", "Node.js", "ASP.NET", "Web Forms", "Tailwind CSS"]
+        "items": ["React", "Next.js", "Angular", "Node.js", "Express.js", "ASP.NET", "Web Forms", "Tailwind CSS"]
       },
       "mobile": {
         "title": "Mobil & Masaüstü",
-        "items": ["Flutter", "React Native", "WPF", "Çapraz Platform Geliştirme"]
+        "items": ["Flutter", "WPF", "Çapraz Platform Geliştirme"]
       },
       "tools": {
         "title": "Araçlar & Platformlar",
-        "items": ["Git", "Docker", "Azure", "SQL Server", "PostgreSQL", "QR Kod Sistemleri", "Etkinlik Yönetimi"]
+        "items": ["Git", "Docker", "PostgreSQL", "SQL Server", "Entity Framework", "Kubernetes"]
       }
     }
   },
@@ -64,43 +64,35 @@
     "viewDemo": "Canlı Demo",
     "items": [
       {
-        "name": "VehicleSpeedDetection",
-        "desc": "YOLOv8 tabanlı, hız ihlali yapan araçları tespit eden, plaka tanıyan ve sigorta değerine göre dinamik ceza hesaplayan bir yapay zekâ sistemi.",
-        "role": "Geliştirici & Yapay Zekâ Mühendisi",
-        "result": "95% doğruluk oranı elde edildi ve otomatik veri tabanı raporlama entegre edildi.",
-        "tech": ["Python", "YOLOv8", "OpenCV", "PostgreSQL"],
+        "name": "Araç Hız Tespit Sistemi",
+        "desc": "YOLOv8 kullanarak gerçek zamanlı araç tespiti, plaka tanıma (LPR) ve otomatik hız ihlali takibi yapan gelişmiş bir yapay zekâ destekli trafik izleme sistemi. Sistem, araç sigorta değerlerine göre dinamik ceza hesaplama yapar ve kapsamlı raporlama ve analitik için PostgreSQL ile entegre edilmiştir.",
+        "role": "Yapay Zekâ Mühendisi & Tam Yığın Geliştirici",
+        "result": "Gerçek zamanlı işleme yetenekleriyle %95 tespit doğruluğu elde edildi. Otomatik veritabanı raporlama başarıyla entegre edildi, trafik yetkililerinin ihlalleri verimli bir şekilde izlemesine ve detaylı analitik raporlar oluşturmasına olanak sağlandı.",
+        "tech": ["Python", "YOLOv8", "OpenCV", "PostgreSQL", "Bilgisayarlı Görü", "Derin Öğrenme"],
         "github": "https://github.com/bulsahkecici/VehicleSpeedDetection"
       },
       {
-        "name": "BulkaDental Yönetim Sistemi",
-        "desc": "Tedavi planlama, rol bazlı paneller ve indirim yönetimi içeren kapsamlı çok platformlu diş kliniği yönetim sistemi.",
-        "role": "Tam Yığın Geliştirici",
-        "result": "Gerçek klinik ortamında kullanılmaya başlandı; web ve mobil platformlar için modüler ölçeklenebilirlik.",
-        "tech": ["C#", "WPF", "Angular", "Flutter", "SQL Server"],
-        "github": "https://github.com/bulsahkecici/BulkaDental"
-      },
-      {
-        "name": "OpenTicket Sistemi",
-        "desc": "Admin paneli, etkinlik CRUD işlemleri ve QR tabanlı e-biletler ile ASP.NET Web Forms kullanılarak geliştirilmiş tam kapsamlı bilet yönetim sistemi.",
-        "role": "Tam Yığın Geliştirici",
-        "result": "QR kod üretimi ve bilet doğrulama ile kapsamlı etkinlik yönetimi uygulandı.",
-        "tech": ["ASP.NET", "Web Forms", "C#", "SQL Server", "CSS"],
-        "github": "https://github.com/bulsahkecici/OpenTicket"
-      },
-      {
-        "name": "Çok Platformlu Diş Uygulaması",
-        "desc": "Birleşik hasta yönetimi ve tedavi takibi ile birden fazla platformu destekleyen çapraz platform diş uygulaması.",
-        "role": "Tam Yığın Geliştirici",
-        "result": "Web, mobil ve masaüstü platformlarını destekleyen ölçeklenebilir çözüm oluşturuldu.",
-        "tech": ["Flutter", "Angular", "C#", "SQL Server"],
+        "name": "Çok Platformlu Diş Kliniği Yönetim Sistemi",
+        "desc": "Diş klinikleri için tasarlanmış kapsamlı bir sağlık yönetim platformu, web (Angular), mobil (Flutter) ve masaüstü (WPF) uygulamalarını destekler. Rol bazlı erişim kontrolü, tedavi planlama, randevu yönetimi, finansal yönetim, otomatik indirim hesaplamaları ve kapsamlı raporlama modülleri içerir.",
+        "role": "Tam Yığın Geliştirici & Sistem Mimarı",
+        "result": "Gerçek klinik ortamlarında başarıyla dağıtıldı. Modüler mimari, platformlar arasında sorunsuz ölçeklenebilirlik sağlar, birleşik hasta veri yönetimi ve çapraz platform senkronizasyonu sunar. Otomasyon sayesinde idari iş yükü %60 azaltıldı.",
+        "tech": ["C#", "WPF", "Angular", "TypeScript", "Flutter", "Dart", "SQL Server", "Entity Framework"],
         "github": "https://github.com/bulsahkecici/MultiPlatformDentalApp"
       },
       {
-        "name": "Web Anket Projesi",
-        "desc": "Veri toplama, analiz ve raporlama yetenekleri ile kapsamlı web tabanlı anket sistemi.",
+        "name": "OpenTicket Etkinlik Yönetim Sistemi",
+        "desc": "ASP.NET Web Forms ile geliştirilmiş tam kapsamlı dijital biletleme platformu, kapsamlı etkinlik yönetimi, QR kod üretimi ve doğrulama, gerçek zamanlı bilet tarama, CRUD işlemleri içeren admin paneli ve otomatik etkinlik raporlama özelliklerine sahiptir. Sorunsuz etkinlik organizasyonu ve katılımcı yönetimi için tasarlanmıştır.",
         "role": "Tam Yığın Geliştirici",
-        "result": "Gerçek zamanlı veri toplama ve analitik ile duyarlı anket platformu oluşturuldu.",
-        "tech": ["JavaScript", "HTML", "CSS", "Node.js"],
+        "result": "QR tabanlı bilet doğrulama ile uçtan uca etkinlik yönetim çözümü uygulandı. Bilet dolandırıcılığı %100 azaltıldı ve etkinlik operasyonları optimize edildi. Sistem, özelleştirilebilir bilet kategorileri ve fiyatlandırma ile birden fazla etkinlik türünü destekler.",
+        "tech": ["ASP.NET", "Web Forms", "C#", "SQL Server", "CSS", "JavaScript", "QR Kod API'leri"],
+        "github": "https://github.com/bulsahkecici/OpenTicket"
+      },
+      {
+        "name": "Web Anket ve Analitik Platformu",
+        "desc": "Gelişmiş veri toplama yetenekleri, gerçek zamanlı analitik paneli, özelleştirilebilir anket formları, çoklu soru türü desteği ve kapsamlı raporlama özelliklerine sahip duyarlı web tabanlı anket sistemi. Verimli veri toplama ve analiz gerektiren araştırma kurumları ve organizasyonlar için geliştirilmiştir.",
+        "role": "Tam Yığın Geliştirici",
+        "result": "Gerçek zamanlı veri görselleştirme ve analitik ile ölçeklenebilir anket platformu oluşturuldu. Karmaşık anket mantığı, koşullu sorular ve dışa aktarma işlevselliğini destekler. Optimize edilmiş veritabanı sorguları ve önbellekleme mekanizmaları ile yüksek hacimli yanıtları başarıyla işler.",
+        "tech": ["JavaScript", "Node.js", "HTML5", "CSS3", "Express.js", "Veritabanı Tasarımı"],
         "github": "https://github.com/bulsahkecici/web_survey_project"
       }
     ]
@@ -211,37 +203,30 @@
     "viewAll": "Tüm yazılar",
     "items": [
       {
-        "title": "YOLOv8 ile Yapay Zeka Destekli Araç Hız Tespiti",
-        "excerpt": "YOLOv8, OpenCV ve PostgreSQL kullanarak gerçek zamanlı araç hız tespiti uygulama rehberi. Trafik izleme sistemlerinde %95 doğruluk oranına nasıl ulaşılacağını öğrenin.",
-        "date": "2024-01-15",
+        "title": "YOLOv8 ve Bilgisayarlı Görü ile Üretim Seviyesinde AI Trafik İzleme Sistemi Geliştirme",
+        "excerpt": "Bu kapsamlı teknik derinlemesine incelemede, YOLOv8, OpenCV ve PostgreSQL kullanarak gerçek zamanlı araç hız tespit sistemi oluşturmayı keşfediyorum. Değişen ışık koşullarında plaka tanımanın zorluklarını, dinamik ceza hesaplama algoritmalarını uygulamayı ve üretim ortamlarında %95 tespit doğruluğuna nasıl ulaşılacağını öğrenin. Makale, model optimizasyonu, yüksek frekanslı yazma işlemleri için veritabanı şema tasarımı ve ölçeklenebilir güvenilir izleme pipeline'ları oluşturmayı kapsar.",
+        "date": "2025-01-15",
         "slug": "yolov8-arac-hiz-tespiti",
         "link": "https://github.com/bulsahkecici/VehicleSpeedDetection"
       },
       {
-        "title": "Çok Platformlu Sağlık Yönetimi: WPF'den Flutter'a",
-        "excerpt": "Çok platformlu sağlık yönetim sistemleri oluşturmadaki zorluklar ve çözümler. Modüler mimari ve rol tabanlı paneller hakkında derinlemesine inceleme.",
-        "date": "2023-12-10",
+        "title": "Çok Platformlu Sağlık Sistemleri Mimarisi: Üretimden Dersler",
+        "excerpt": "Web, mobil ve masaüstü platformları arasında sorunsuz çalışan sağlık yönetim sistemleri oluşturmak, dikkatli mimari planlama gerektirir. Bu makale, C#, WPF, Angular ve Flutter kullanarak üretim seviyesinde bir diş kliniği yönetim sistemi geliştirmeden elde edilen içgörüleri paylaşıyor. Birleşik veri modelleri tasarlamayı, rol bazlı erişim kontrolü uygulamayı, çapraz platform senkronizasyonunu yönetmeyi ve platforma özgü kullanıcı deneyimleri sunarken kod yeniden kullanılabilirliğini korumayı keşfedin.",
+        "date": "2025-12-10",
         "slug": "cok-platformlu-saglik-yonetimi",
-        "link": "https://github.com/bulsahkecici/BulkaDental"
+        "link": "https://github.com/bulsahkecici/MultiPlatformDentalApp"
       },
       {
-        "title": "Etkinlik Yönetim Sistemleri: QR Kodlar ve Dijital Biletleme",
-        "excerpt": "ASP.NET Web Forms ile kapsamlı etkinlik yönetim platformları oluşturma. QR kod üretimi, bilet doğrulama ve otomatik etkinlik operasyonları hakkında bilgi edinin.",
-        "date": "2023-11-25",
+        "title": "Dijital Etkinlik Yönetimi: Ölçeklenebilir QR Tabanlı Biletleme Sistemleri Oluşturma",
+        "excerpt": "Modern etkinlik yönetimi, dolandırıcılığı önleyen ve operasyonları optimize eden sağlam biletleme çözümleri gerektirir. Bu teknik rehber, ASP.NET Web Forms ile tam kapsamlı bir etkinlik yönetim platformu oluşturmayı ele alıyor, QR kod üretim stratejileri, gerçek zamanlı bilet doğrulama, yüksek eşzamanlılık senaryoları için veritabanı optimizasyonu ve güvenli admin panelleri uygulamayı kapsıyor. Bilet satışları sırasında yoğun trafiği yönetmeyi ve etkinlik mekanlarında güvenilir doğrulama sağlamayı öğrenin.",
+        "date": "2025-11-25",
         "slug": "etkinlik-yonetimi-qr-kodlar",
         "link": "https://github.com/bulsahkecici/OpenTicket"
       },
       {
-        "title": "Çapraz Platform Geliştirme: Diş Uygulaması Mimarisi Dersleri",
-        "excerpt": "Web, mobil ve masaüstü platformları arasında birleşik hasta yönetim sistemleri geliştirmeden elde edilen içgörüler. Teknik zorluklar ve mimari kararlar.",
-        "date": "2023-10-18",
-        "slug": "capraz-platform-dis-uygulamasi",
-        "link": "https://github.com/bulsahkecici/MultiPlatformDentalApp"
-      },
-      {
-        "title": "Web Anket Sistemleri: Veri Toplama ve Analitik",
-        "excerpt": "Gerçek zamanlı veri toplama ve analitik ile duyarlı anket platformları oluşturma. Web tabanlı araştırma araçları için pratik yaklaşım.",
-        "date": "2023-09-12",
+        "title": "Veri Biliminden Tam Yığın'a: Uçtan Uca Anket Analitik Platformları Oluşturma",
+        "excerpt": "Anket verilerini eyleme dönüştürülebilir içgörülere dönüştürmek, sadece veri toplamaktan daha fazlasını gerektirir. Bu makale, gerçek zamanlı analitik içeren tam kapsamlı bir anket platformu oluşturmayı keşfediyor, duyarlı form tasarımı, karmaşık koşullu mantık uygulaması, büyük ölçekli yanıtlar için veritabanı optimizasyonu ve araştırmacıların veri odaklı kararlar almasına yardımcı olan sezgisel paneller oluşturmayı kapsıyor. Çoklu soru türlerini yönetme ve dışa aktarma işlevselliği uygulama konusunda pratik örnekler içerir.",
+        "date": "2025-09-12",
         "slug": "web-anket-analitik",
         "link": "https://github.com/bulsahkecici/web_survey_project"
       }
@@ -258,7 +243,7 @@
     "success": "Mesaj başarıyla gönderildi!",
     "error": "Mesaj gönderilemedi. Lütfen tekrar deneyin.",
     "info": {
-      "email": "bulsahkecici@yandex.com",
+      "email": "contact@bulsahkecici.com",
       "location": "Ankara, Türkiye",
       "timezone": "GMT+3 (Avrupa/İstanbul)",
       "schedule": "Toplantı planla"
@@ -266,11 +251,23 @@
     "social": {
       "linkedin": "LinkedIn",
       "github": "GitHub",
-      "twitter": "Twitter"
+      "twitter": "Twitter",
+      "kaggle": "Kaggle",
+      "huggingface": "Hugging Face"
     }
+  },
+  "resume": {
+    "title": "Özgeçmiş",
+    "download_pdf": "PDF İndir"
   },
   "footer": {
     "rights": "Tüm hakları saklıdır.",
     "made": "Next.js & Tailwind CSS ile geliştirildi"
+  },
+  "notFound": {
+    "title": "Sayfa Bulunamadı",
+    "description": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
+    "goHome": "Ana Sayfaya Dön",
+    "goBack": "Geri Git"
   }
 }

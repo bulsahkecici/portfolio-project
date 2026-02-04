@@ -29,14 +29,19 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     de: "Data Scientist und Informatikingenieur, spezialisiert auf KI-gestützte Analysen, intelligente Automatisierung und moderne Websysteme."
   };
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://bulsahkecici.com";
+  const currentUrl = `${siteUrl}/${locale}`;
+
   return {
     title: titles[locale as keyof typeof titles] || titles.en,
     description: descriptions[locale as keyof typeof descriptions] || descriptions.en,
+    metadataBase: new URL(siteUrl),
     alternates: {
+      canonical: currentUrl,
       languages: {
-        en: "/en",
-        tr: "/tr",
-        de: "/de",
+        en: `${siteUrl}/en`,
+        tr: `${siteUrl}/tr`,
+        de: `${siteUrl}/de`,
       },
     },
     openGraph: {
@@ -44,6 +49,24 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       description: descriptions[locale as keyof typeof descriptions] || descriptions.en,
       type: "website",
       locale: locale,
+      url: currentUrl,
+      siteName: "Bulşah Keçici",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: titles[locale as keyof typeof titles] || titles.en,
+      description: descriptions[locale as keyof typeof descriptions] || descriptions.en,
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
     },
   };
 }

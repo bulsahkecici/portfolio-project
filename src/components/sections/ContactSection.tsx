@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { Mail, MapPin, Clock, Linkedin, Github, Twitter, Send } from "lucide-react";
+import { Mail, MapPin, Clock, Linkedin, Github, Send } from "lucide-react";
 import { useState } from "react";
 
 const schema = z.object({
@@ -112,7 +112,7 @@ export default function ContactSection() {
 
               <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700">
                 <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">Connect with me:</p>
-                <div className="flex gap-4">
+                <div className="flex gap-4 flex-wrap">
                   <a
                     href="https://linkedin.com/in/bulsahkecici"
                     target="_blank"
@@ -135,10 +135,39 @@ export default function ContactSection() {
                     href="https://twitter.com/bulsahkecici"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-3 bg-sky-100 dark:bg-sky-900/30 rounded-lg hover:bg-sky-200 dark:hover:bg-sky-800/50 transition-colors"
-                    aria-label="Twitter"
+                    className="p-3 bg-gray-100 dark:bg-gray-700 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+                    aria-label="X (Twitter)"
+                    title="X"
                   >
-                    <Twitter className="text-sky-600" size={24} />
+                    <svg className="w-6 h-6 text-gray-900 dark:text-gray-100" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                  </a>
+                  <a
+                    href="https://www.kaggle.com/bulsahkecici"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 bg-indigo-100 dark:bg-indigo-900/30 rounded-lg hover:bg-indigo-200 dark:hover:bg-indigo-800/50 transition-colors"
+                    aria-label="Kaggle"
+                    title="Kaggle"
+                  >
+                    <svg className="w-6 h-6 text-indigo-600" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M18.825 23.859c-.022.092-.117.141-.281.141h-3.139c-.187 0-.351-.082-.492-.248l-5.178-6.589-1.448 1.448v5.111c0 .235-.117.352-.351.352H5.505c-.236 0-.354-.117-.354-.352V.353c0-.233.118-.353.354-.353h2.431c.234 0 .351.12.351.353v14.343l6.203-6.272c.165-.165.33-.246.495-.246h3.239c.144 0 .236.06.276.178.041.118.021.234-.062.352l-6.178 6.178 6.203 6.203c.093.093.117.211.062.352z"/>
+                    </svg>
+                  </a>
+                  <a
+                    href="https://huggingface.co/Bulka"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 bg-yellow-100 dark:bg-yellow-900/30 rounded-lg hover:bg-yellow-200 dark:hover:bg-yellow-800/50 transition-colors"
+                    aria-label="Hugging Face"
+                    title="Hugging Face"
+                  >
+                    <img
+                      src="/images/huggingface_logo-noborder.svg"
+                      alt="Hugging Face"
+                      className="w-6 h-6"
+                    />
                   </a>
                 </div>
               </div>

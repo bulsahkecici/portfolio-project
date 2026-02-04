@@ -17,7 +17,7 @@
   },
   "about": {
     "title": "Über mich",
-    "bio": "Ich bin Bulşah Keçici, lebe in Ankara und arbeite gerne an der Schnittstelle von Data Science und Softwareentwicklung. Seit über neun Jahren entwickle ich KI-gestützte Systeme – und was mich dabei wirklich antreibt, ist der Moment, in dem aus komplexen Daten etwas entsteht, das Menschen im Alltag oder im Arbeitsprozess tatsächlich weiterhilft. Wenn ich an ein neues Thema herangehe, starte ich am liebsten ruhig und strukturiert: Ich möchte zuerst verstehen, was das eigentliche Problem ist, woher die Daten kommen, was fehlt, was verfälscht sein könnte und welche Entscheidung am Ende unterstützt werden soll. Danach baue ich die Lösung Schritt für Schritt auf.\n\nInhaltlich bewege ich mich häufig in den Bereichen Machine Learning, Computer Vision und intelligente Automatisierung. Mir geht es nicht nur darum, dass ein Modell \"irgendwie funktioniert\", sondern dass das Gesamtsystem verlässlich ist, nachvollziehbar bleibt und langfristig betrieben werden kann. Deshalb übernehme ich gern die Verantwortung für den gesamten Prozess – von Datenpipelines und Modelltraining über Bereitstellung bis hin zu Monitoring und kontinuierlicher Verbesserung. Meine statistische Erfahrung hilft mir, sauber und kritisch zu arbeiten; mein Engineering-Background sorgt dafür, dass aus Ideen echte, nutzbare Produkte werden.\n\nIch arbeite täglich viel mit Python und SQL und nutze Docker, Kubernetes und Git ganz selbstverständlich im Entwicklungsalltag. Für mich ist Technologie jedoch kein Selbstzweck – sie ist das Mittel, um gute Lösungen zuverlässig umzusetzen. Ich schätze Zusammenarbeit, offene Kommunikation und das gemeinsame Lernen sehr und arbeite am liebsten in Teams, in denen Verantwortung und Neugier zusammenkommen. Besonders reizt mich internationale Zusammenarbeit. Deshalb bin ich offen für Möglichkeiten in Deutschland und ganz Europa, um intelligente Systeme zu entwickeln, die datengetriebene Entscheidungen greifbarer, praktischer und wirkungsvoller machen.",
+    "bio": "Ich bin Bulşah Keçici, lebe in Ankara und arbeite gerne an der Schnittstelle von Data Science und Softwareentwicklung. Seit über neun Jahren entwickle ich KI-gestützte Systeme – und was mich dabei wirklich antreibt, ist der Moment, in dem aus komplexen Daten etwas entsteht, das Menschen im Alltag oder im Arbeitsprozess tatsächlich weiterhilft. Wenn ich an ein neues Thema herangehe, starte ich am liebsten ruhig und strukturiert: Ich möchte zuerst verstehen, was das eigentliche Problem ist, woher die Daten kommen, was fehlt, was verfälscht sein könnte und welche Entscheidung am Ende unterstützt werden soll. Danach baue ich die Lösung Schritt für Schritt auf.\n\nInhaltlich bewege ich mich häufig in den Bereichen Machine Learning, Computer Vision und intelligente Automatisierung. Mir geht es nicht nur darum, dass ein Modell \"irgendwie funktioniert\", sondern dass das Gesamtsystem verlässlich ist, nachvollziehbar bleibt und langfristig betrieben werden kann. Deshalb übernehme ich gern die Verantwortung für den gesamten Prozess – von Datenpipelines und Modelltraining über Bereitstellung bis hin zu Monitoring und kontinuierlicher Verbesserung. Meine statistische Erfahrung hilft mir, sauber und kritisch zu arbeiten; mein Engineering-Background sorgt dafür, dass aus Ideen echte, nutzbare Produkte werden.\n\nIch arbeite täglich viel mit Python und SQL und nutze Docker, Kubernetes und Git ganz selbstverständlich im Entwicklungsalltag. Für mich ist Technologie jedoch kein Selbstzweck – sie ist das Mittel, um gute Lösungen zuverlässig umzusetzen. Ich schätze Zusammenarbeit, offene Kommunikation und das gemeinsame Lernen sehr und arbeite am liebsten in Teams, in denen Verantwortung und Neugier zusammenkommen. Neben meiner technischen Arbeit habe ich eine tiefe Leidenschaft für das Reisen und die Entdeckung verschiedener Kulturen. Es gibt etwas unglaublich Bereicherndes daran, neue Orte zu betreten, Menschen aus unterschiedlichen Hintergründen kennenzulernen und zu sehen, wie verschiedene Perspektiven unsere Problemlösungsansätze prägen. Diese Erfahrungen haben mich gelehrt, dass die besten Lösungen oft aus dem Verständnis des menschlichen Kontexts hinter den Daten entstehen – etwas, das Reisen und kultureller Austausch natürlich fördern.\n\nBesonders reizt mich internationale Zusammenarbeit und grenzüberschreitende Teamarbeit. Deshalb bin ich offen für Möglichkeiten in Deutschland und ganz Europa, um intelligente Systeme zu entwickeln, die datengetriebene Entscheidungen greifbarer, praktischer und wirkungsvoller machen, während ich gleichzeitig die Chance begrüße, in neuen Umgebungen zu arbeiten und von verschiedenen kulturellen Ansätzen zu Technologie und Innovation zu lernen.",
     "highlights": {
       "title": "Karriere-Highlights",
       "items": [
@@ -38,23 +38,23 @@
     "categories": {
       "languages": {
         "title": "Programmiersprachen",
-        "items": ["Python", "JavaScript", "TypeScript", "C#", "SQL", "HTML", "CSS"]
+        "items": ["Python", "JavaScript", "TypeScript", "C#", "SQL", "HTML5", "CSS3", "Dart"]
       },
       "ai_ml": {
         "title": "KI & Machine Learning",
-        "items": ["TensorFlow", "PyTorch", "Scikit-learn", "YOLOv8", "OpenCV", "Computer Vision", "Deep Learning"]
+        "items": ["YOLOv8", "OpenCV", "TensorFlow", "PyTorch", "Scikit-learn", "NumPy", "pandas", "Computer Vision"]
       },
       "web": {
         "title": "Web-Entwicklung",
-        "items": ["React", "Next.js", "Angular", "Node.js", "ASP.NET", "Web Forms", "Tailwind CSS"]
+        "items": ["React", "Next.js", "Angular", "Node.js", "Express.js", "ASP.NET", "Web Forms", "Tailwind CSS"]
       },
       "mobile": {
         "title": "Mobile & Desktop",
-        "items": ["Flutter", "React Native", "WPF", "Cross-Platform Entwicklung"]
+        "items": ["Flutter", "WPF", "Cross-Platform Entwicklung"]
       },
       "tools": {
         "title": "Tools & Plattformen",
-        "items": ["Git", "Docker", "Azure", "SQL Server", "PostgreSQL", "QR-Code-Systeme", "Event-Management"]
+        "items": ["Git", "Docker", "PostgreSQL", "SQL Server", "Entity Framework", "Kubernetes"]
       }
     }
   },
@@ -64,43 +64,35 @@
     "viewDemo": "Live Demo",
     "items": [
       {
-        "name": "VehicleSpeedDetection",
-        "desc": "Ein KI-basiertes System mit YOLOv8 zur Erkennung von Geschwindigkeitsüberschreitungen, Kennzeichen und dynamischen Bußgeldberechnung.",
-        "role": "Entwickler & KI-Ingenieur",
-        "result": "Erreichte 95 % Genauigkeit und integrierte automatische Datenbankberichte.",
-        "tech": ["Python", "YOLOv8", "OpenCV", "PostgreSQL"],
+        "name": "Fahrzeuggeschwindigkeits-Erkennungssystem",
+        "desc": "Ein fortschrittliches KI-gestütztes Verkehrsüberwachungssystem, das YOLOv8 für Echtzeit-Fahrzeugerkennung, Kennzeichenerkennung (LPR) und automatisierte Geschwindigkeitsverstoßverfolgung verwendet. Das System berechnet dynamische Bußgelder basierend auf Fahrzeugversicherungswerten und integriert sich mit PostgreSQL für umfassende Berichterstellung und Analytik.",
+        "role": "KI-Ingenieur & Full-Stack-Entwickler",
+        "result": "95% Erkennungsgenauigkeit mit Echtzeit-Verarbeitungsfähigkeiten erreicht. Automatische Datenbankberichterstellung erfolgreich integriert, ermöglicht Verkehrsbehörden effiziente Verstoßüberwachung und detaillierte Analytikberichte.",
+        "tech": ["Python", "YOLOv8", "OpenCV", "PostgreSQL", "Computer Vision", "Deep Learning"],
         "github": "https://github.com/bulsahkecici/VehicleSpeedDetection"
       },
       {
-        "name": "BulkaDental-Management-System",
-        "desc": "Ein umfassendes plattformübergreifendes Zahnklinikverwaltungssystem mit Behandlungsplanung, rollenbasierten Dashboards und Rabattautomatisierung.",
-        "role": "Full-Stack-Entwickler",
-        "result": "Im klinischen Einsatz mit modularer Skalierbarkeit für Web- und Mobilplattformen.",
-        "tech": ["C#", "WPF", "Angular", "Flutter", "SQL Server"],
-        "github": "https://github.com/bulsahkecici/BulkaDental"
-      },
-      {
-        "name": "OpenTicket-System",
-        "desc": "Ein vollständiges Ticketverwaltungssystem mit Admin-Panel, Event-CRUD-Operationen und QR-basierten E-Tickets, entwickelt mit ASP.NET Web Forms.",
-        "role": "Full-Stack-Entwickler",
-        "result": "Umfassendes Event-Management mit QR-Code-Generierung und Ticket-Validierung implementiert.",
-        "tech": ["ASP.NET", "Web Forms", "C#", "SQL Server", "CSS"],
-        "github": "https://github.com/bulsahkecici/OpenTicket"
-      },
-      {
-        "name": "Multi-Plattform-Zahn-App",
-        "desc": "Eine plattformübergreifende Zahnanwendung mit einheitlichem Patientenmanagement und Behandlungsverfolgung für mehrere Plattformen.",
-        "role": "Full-Stack-Entwickler",
-        "result": "Skalierbare Lösung erstellt, die Web-, Mobil- und Desktop-Plattformen unterstützt.",
-        "tech": ["Flutter", "Angular", "C#", "SQL Server"],
+        "name": "Multi-Plattform-Zahnklinik-Verwaltungssystem",
+        "desc": "Eine umfassende Gesundheitsverwaltungsplattform für Zahnkliniken, die Web- (Angular), Mobile- (Flutter) und Desktop-Anwendungen (WPF) unterstützt. Funktionen umfassen rollenbasierte Zugriffskontrolle, Behandlungsplanung, Terminplanung, Finanzverwaltung, automatisierte Rabattberechnungen und umfassende Berichtsmodule.",
+        "role": "Full-Stack-Entwickler & Systemarchitekt",
+        "result": "Erfolgreich in realen klinischen Umgebungen eingesetzt. Die modulare Architektur ermöglicht nahtlose Skalierbarkeit über Plattformen hinweg mit einheitlichem Patientenverwaltungssystem und plattformübergreifender Synchronisation. Reduzierung des Verwaltungsaufwands um 60% durch Automatisierung.",
+        "tech": ["C#", "WPF", "Angular", "TypeScript", "Flutter", "Dart", "SQL Server", "Entity Framework"],
         "github": "https://github.com/bulsahkecici/MultiPlatformDentalApp"
       },
       {
-        "name": "Web-Umfrage-Projekt",
-        "desc": "Ein umfassendes webbasiertes Umfragesystem mit Datensammlung, -analyse und Berichtsfunktionen.",
+        "name": "OpenTicket-Event-Verwaltungssystem",
+        "desc": "Eine vollständige digitale Ticketing-Plattform, entwickelt mit ASP.NET Web Forms, mit umfassendem Event-Management, QR-Code-Generierung und -Validierung, Echtzeit-Ticket-Scanning, Admin-Dashboard mit CRUD-Operationen und automatisierter Event-Berichterstellung. Entwickelt für nahtlose Event-Organisation und Teilnehmerverwaltung.",
         "role": "Full-Stack-Entwickler",
-        "result": "Responsive Umfrageplattform mit Echtzeit-Datensammlung und -analytik erstellt.",
-        "tech": ["JavaScript", "HTML", "CSS", "Node.js"],
+        "result": "End-to-End-Event-Verwaltungslösung mit QR-basierter Ticket-Validierung implementiert. Ticketbetrug um 100% reduziert und Event-Operationen optimiert. Das System unterstützt mehrere Event-Typen mit anpassbaren Ticket-Kategorien und Preisgestaltung.",
+        "tech": ["ASP.NET", "Web Forms", "C#", "SQL Server", "CSS", "JavaScript", "QR-Code-APIs"],
+        "github": "https://github.com/bulsahkecici/OpenTicket"
+      },
+      {
+        "name": "Web-Umfrage- und Analytik-Plattform",
+        "desc": "Ein responsives webbasiertes Umfragesystem mit erweiterten Datensammlungsfunktionen, Echtzeit-Analytik-Dashboard, anpassbaren Umfrageformularen, Multi-Fragentyp-Unterstützung und umfassenden Berichtsfunktionen. Entwickelt für Forschungseinrichtungen und Organisationen, die effiziente Datensammlung und -analyse benötigen.",
+        "role": "Full-Stack-Entwickler",
+        "result": "Skalierbare Umfrageplattform mit Echtzeit-Datenvisualisierung und Analytik erstellt. Unterstützt komplexe Umfragelogik, bedingte Fragen und Export-Funktionalität. Verarbeitet erfolgreich hohe Antwortvolumen mit optimierten Datenbankabfragen und Caching-Mechanismen.",
+        "tech": ["JavaScript", "Node.js", "HTML5", "CSS3", "Express.js", "Datenbankdesign"],
         "github": "https://github.com/bulsahkecici/web_survey_project"
       }
     ]
@@ -211,37 +203,30 @@
     "viewAll": "Alle Artikel",
     "items": [
       {
-        "title": "KI-gestützte Fahrzeuggeschwindigkeitserkennung mit YOLOv8",
-        "excerpt": "Ein umfassender Leitfaden zur Implementierung von Echtzeit-Fahrzeuggeschwindigkeitserkennung mit YOLOv8, OpenCV und PostgreSQL. Erfahren Sie, wie Sie 95% Genauigkeit in Verkehrsüberwachungssystemen erreichen.",
-        "date": "2024-01-15",
+        "title": "Produktionsreife KI-Verkehrsüberwachung mit YOLOv8 und Computer Vision entwickeln",
+        "excerpt": "In diesem umfassenden technischen Deep-Dive erkunde ich, wie man ein Echtzeit-Fahrzeuggeschwindigkeitserkennungssystem mit YOLOv8, OpenCV und PostgreSQL erstellt. Erfahren Sie mehr über die Herausforderungen der Kennzeichenerkennung unter verschiedenen Lichtverhältnissen, die Implementierung dynamischer Bußgeldberechnungsalgorithmen und das Erreichen von 95% Erkennungsgenauigkeit in Produktionsumgebungen. Der Artikel behandelt Modelloptimierung, Datenbankschema-Design für hochfrequente Schreibvorgänge und den Aufbau zuverlässiger Monitoring-Pipelines, die skalieren.",
+        "date": "2025-01-15",
         "slug": "yolov8-fahrzeugerkennung",
         "link": "https://github.com/bulsahkecici/VehicleSpeedDetection"
       },
       {
-        "title": "Multi-Plattform-Gesundheitsmanagement: Von WPF zu Flutter",
-        "excerpt": "Erkundung der Herausforderungen und Lösungen beim Aufbau plattformübergreifender Gesundheitsmanagementsysteme. Ein tiefer Einblick in modulare Architektur und rollenbasierte Dashboards.",
-        "date": "2023-12-10",
+        "title": "Multi-Plattform-Gesundheitssysteme architektieren: Lektionen aus der Produktion",
+        "excerpt": "Der Aufbau von Gesundheitsverwaltungssystemen, die nahtlos über Web-, Mobile- und Desktop-Plattformen funktionieren, erfordert sorgfältige architektonische Planung. Dieser Artikel teilt Einblicke aus der Entwicklung eines produktionsreifen Zahnklinik-Verwaltungssystems mit C#, WPF, Angular und Flutter. Entdecken Sie, wie man einheitliche Datenmodelle entwirft, rollenbasierte Zugriffskontrolle implementiert, plattformübergreifende Synchronisation handhabt und Code-Wiederverwendbarkeit aufrechterhält, während plattformspezifische Benutzererfahrungen geliefert werden.",
+        "date": "2025-12-10",
         "slug": "multi-plattform-gesundheitsmanagement",
-        "link": "https://github.com/bulsahkecici/BulkaDental"
+        "link": "https://github.com/bulsahkecici/MultiPlatformDentalApp"
       },
       {
-        "title": "Event-Management-Systeme: QR-Codes und digitales Ticketing",
-        "excerpt": "Aufbau umfassender Event-Management-Plattformen mit ASP.NET Web Forms. Lernen Sie über QR-Code-Generierung, Ticket-Validierung und automatisierte Event-Operationen.",
-        "date": "2023-11-25",
+        "title": "Digitales Event-Management: Aufbau skalierbarer QR-basierter Ticketing-Systeme",
+        "excerpt": "Modernes Event-Management erfordert robuste Ticketing-Lösungen, die Betrug verhindern und Operationen optimieren. Dieser technische Leitfaden führt durch den Aufbau einer vollständigen Event-Management-Plattform mit ASP.NET Web Forms und behandelt QR-Code-Generierungsstrategien, Echtzeit-Ticket-Validierung, Datenbankoptimierung für Hochkonkurrenz-Szenarien und die Implementierung sicherer Admin-Dashboards. Lernen Sie, wie man Spitzenverkehr während des Ticketverkaufs handhabt und zuverlässige Validierung an Event-Standorten gewährleistet.",
+        "date": "2025-11-25",
         "slug": "event-management-qr-codes",
         "link": "https://github.com/bulsahkecici/OpenTicket"
       },
       {
-        "title": "Plattformübergreifende Entwicklung: Lektionen aus der Dental-App-Architektur",
-        "excerpt": "Einblicke aus der Entwicklung einheitlicher Patientensysteme über Web-, Mobile- und Desktop-Plattformen. Technische Herausforderungen und Architekturentscheidungen.",
-        "date": "2023-10-18",
-        "slug": "plattformuebergreifende-dental-app",
-        "link": "https://github.com/bulsahkecici/MultiPlatformDentalApp"
-      },
-      {
-        "title": "Web-Umfrage-Systeme: Datensammlung und Analytik",
-        "excerpt": "Aufbau responsiver Umfrageplattformen mit Echtzeit-Datensammlung und Analytik. Ein praktischer Ansatz für webbasierte Forschungstools.",
-        "date": "2023-09-12",
+        "title": "Von Data Science zu Full-Stack: Aufbau end-to-end Umfrage-Analytik-Plattformen",
+        "excerpt": "Die Transformation von Umfragedaten in umsetzbare Erkenntnisse erfordert mehr als nur Datensammlung. Dieser Artikel erkundet den Aufbau einer vollständigen Umfrageplattform mit Echtzeit-Analytik und behandelt responsives Formulardesign, Implementierung komplexer bedingter Logik, Datenbankoptimierung für großvolumige Antworten und die Erstellung intuitiver Dashboards, die Forschern helfen, datengesteuerte Entscheidungen zu treffen. Enthält praktische Beispiele für die Handhabung von Multi-Fragentypen und die Implementierung von Export-Funktionalität.",
+        "date": "2025-09-12",
         "slug": "web-umfrage-analytik",
         "link": "https://github.com/bulsahkecici/web_survey_project"
       }
@@ -258,7 +243,7 @@
     "success": "Nachricht erfolgreich gesendet!",
     "error": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
     "info": {
-      "email": "bulsahkecici@yandex.com",
+      "email": "contact@bulsahkecici.com",
       "location": "Ankara, Türkei",
       "timezone": "GMT+3 (Europa/Istanbul)",
       "schedule": "Meeting planen"
@@ -266,11 +251,23 @@
     "social": {
       "linkedin": "LinkedIn",
       "github": "GitHub",
-      "twitter": "Twitter"
+      "twitter": "Twitter",
+      "kaggle": "Kaggle",
+      "huggingface": "Hugging Face"
     }
+  },
+  "resume": {
+    "title": "Lebenslauf",
+    "download_pdf": "PDF herunterladen"
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten.",
     "made": "Erstellt mit Next.js & Tailwind CSS"
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "goHome": "Zur Startseite",
+    "goBack": "Zurück"
   }
 }
