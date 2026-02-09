@@ -123,6 +123,7 @@ export default function ContactSection() {
                     className="p-3 bg-blue-100 dark:bg-blue-900/30 rounded-lg hover:bg-blue-200 dark:hover:bg-blue-800/50 transition-colors"
                     aria-label="LinkedIn"
                   >
+                    <span className="sr-only">LinkedIn</span>
                     <Linkedin className="text-blue-600" size={24} />
                   </a>
                   <a
@@ -132,6 +133,7 @@ export default function ContactSection() {
                     className="p-3 bg-gray-100 dark:bg-gray-700 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
                     aria-label="GitHub"
                   >
+                    <span className="sr-only">GitHub</span>
                     <Github className="text-gray-700 dark:text-gray-300" size={24} />
                   </a>
                   <a
@@ -142,6 +144,7 @@ export default function ContactSection() {
                     aria-label="X (Twitter)"
                     title="X"
                   >
+                    <span className="sr-only">X (Twitter)</span>
                     <svg className="w-6 h-6 text-gray-900 dark:text-gray-100" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
                     </svg>
@@ -154,6 +157,7 @@ export default function ContactSection() {
                     aria-label="Kaggle"
                     title="Kaggle"
                   >
+                    <span className="sr-only">Kaggle</span>
                     <svg className="w-6 h-6 text-indigo-600" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path d="M18.825 23.859c-.022.092-.117.141-.281.141h-3.139c-.187 0-.351-.082-.492-.248l-5.178-6.589-1.448 1.448v5.111c0 .235-.117.352-.351.352H5.505c-.236 0-.354-.117-.354-.352V.353c0-.233.118-.353.354-.353h2.431c.234 0 .351.12.351.353v14.343l6.203-6.272c.165-.165.33-.246.495-.246h3.239c.144 0 .236.06.276.178.041.118.021.234-.062.352l-6.178 6.178 6.203 6.203c.093.093.117.211.062.352z"/>
                     </svg>
@@ -166,6 +170,7 @@ export default function ContactSection() {
                     aria-label="Hugging Face"
                     title="Hugging Face"
                   >
+                    <span className="sr-only">Hugging Face</span>
                     <img
                       src="/images/huggingface_logo-noborder.svg"
                       alt="Hugging Face"
@@ -188,6 +193,7 @@ export default function ContactSection() {
                   id="name"
                   type="text"
                   {...register("name")}
+                  autoComplete="name"
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
                   aria-invalid={!!errors.name}
                 />
@@ -204,6 +210,7 @@ export default function ContactSection() {
                   id="email"
                   type="email"
                   {...register("email")}
+                  autoComplete="email"
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
                   aria-invalid={!!errors.email}
                 />
@@ -220,6 +227,7 @@ export default function ContactSection() {
                   id="message"
                   rows={5}
                   {...register("message")}
+                  autoComplete="off"
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none"
                   aria-invalid={!!errors.message}
                 />

@@ -16,12 +16,12 @@ export default function HeroSection() {
       
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="flex flex-col md:flex-row items-center gap-12">
-          <div className="flex-1 text-center md:text-left space-y-6 animate-fade-in-up">
+          <div className="flex-1 text-center md:text-left space-y-6 animate-fade-in-up overflow-visible">
             <p className="text-lg text-gray-600 dark:text-gray-400">{t("greeting")}</p>
-            <h1 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
+            <h1 className="text-5xl md:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 w-full break-words leading-tight overflow-visible" style={{ lineHeight: '1.1', paddingTop: '0.1em' }}>
               {t("name")}
             </h1>
-            <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 dark:text-gray-200">
+            <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 dark:text-gray-200 mt-4">
               {t("title")}
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl">
@@ -56,7 +56,7 @@ export default function HeroSection() {
                   fill
                   className="object-cover rounded-full"
                   priority
-                  unoptimized
+                  sizes="(max-width: 768px) 288px, 384px"
                 />
               </div>
             </div>
